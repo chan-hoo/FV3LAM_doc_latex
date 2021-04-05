@@ -1,0 +1,199 @@
+\BOOKMARK [0][]{chapter*.1}{Contents}{}% 1
+\BOOKMARK [0][]{chapter.1}{Quick Start Guide of SRW App}{}% 2
+\BOOKMARK [1][]{section.1.1}{Stable Tag of Regional Workflow for EMC}{chapter.1}% 3
+\BOOKMARK [1][]{section.1.2}{Release Branch: release/public-v1}{chapter.1}% 4
+\BOOKMARK [0][]{chapter.2}{Pre-workflow with UFS Short Range Weather Application}{}% 5
+\BOOKMARK [1][]{section.2.1}{Overall Procedure of SRW App}{chapter.2}% 6
+\BOOKMARK [1][]{section.2.2}{Download from GitHub}{chapter.2}% 7
+\BOOKMARK [1][]{section.2.3}{External Components}{chapter.2}% 8
+\BOOKMARK [1][]{section.2.4}{Building the Executables for Workflow}{chapter.2}% 9
+\BOOKMARK [2][]{subsection.2.4.1}{Environment Set-up}{section.2.4}% 10
+\BOOKMARK [2][]{subsection.2.4.2}{Building the Executables}{section.2.4}% 11
+\BOOKMARK [2][]{subsection.2.4.3}{Adding a New CCPP Suite to SRW App}{section.2.4}% 12
+\BOOKMARK [1][]{section.2.5}{Generating a Regional Workflow Experiment}{chapter.2}% 13
+\BOOKMARK [2][]{subsection.2.5.1}{Steps to Generate a New Regional Workflow Experiment}{section.2.5}% 14
+\BOOKMARK [2][]{subsection.2.5.2}{Pre-defined Grid Parameters: `set\137predef\137grid\137params.sh'}{section.2.5}% 15
+\BOOKMARK [2][]{subsection.2.5.3}{Valid Values for Configuration Parameters: `valid\137param\137vals.sh'}{section.2.5}% 16
+\BOOKMARK [2][]{subsection.2.5.4}{CCPP Suites Supported in FV3-LAM}{section.2.5}% 17
+\BOOKMARK [2][]{subsection.2.5.5}{Default Configuration: `config\137default.sh'}{section.2.5}% 18
+\BOOKMARK [2][]{subsection.2.5.6}{User-specific Configuration: `config.sh'}{section.2.5}% 19
+\BOOKMARK [2][]{subsection.2.5.7}{Sample Configuration Scripts}{section.2.5}% 20
+\BOOKMARK [2][]{subsection.2.5.8}{Static \(FIX\) Files for the `nco' Mode}{section.2.5}% 21
+\BOOKMARK [1][]{section.2.6}{Templates of Input Files}{chapter.2}% 22
+\BOOKMARK [2][]{subsection.2.6.1}{List of Template Files}{section.2.6}% 23
+\BOOKMARK [2][]{subsection.2.6.2}{Migratory Route of Input Files in Workflow}{section.2.6}% 24
+\BOOKMARK [2][]{subsection.2.6.3}{data\137table}{section.2.6}% 25
+\BOOKMARK [2][]{subsection.2.6.4}{diag\137table.[CCPP]}{section.2.6}% 26
+\BOOKMARK [2][]{subsection.2.6.5}{field\137table.[CCPP]}{section.2.6}% 27
+\BOOKMARK [2][]{subsection.2.6.6}{FV3.input.yml}{section.2.6}% 28
+\BOOKMARK [2][]{subsection.2.6.7}{FV3LAM\137wflow.xml}{section.2.6}% 29
+\BOOKMARK [2][]{subsection.2.6.8}{input.nml.FV3}{section.2.6}% 30
+\BOOKMARK [2][]{subsection.2.6.9}{model\137configure}{section.2.6}% 31
+\BOOKMARK [2][]{subsection.2.6.10}{nems.configure}{section.2.6}% 32
+\BOOKMARK [2][]{subsection.2.6.11}{regional\137grid.nml}{section.2.6}% 33
+\BOOKMARK [1][]{section.2.7}{HPC Environment Configuration}{chapter.2}% 34
+\BOOKMARK [0][]{chapter.3}{Workflow: Forecast}{}% 35
+\BOOKMARK [1][]{section.3.1}{Structure of Regional Workflow}{chapter.3}% 36
+\BOOKMARK [1][]{section.3.2}{Optional Workflow Tasks}{chapter.3}% 37
+\BOOKMARK [2][]{subsection.3.2.1}{Grid, Orography, and Surface Climatology}{section.3.2}% 38
+\BOOKMARK [2][]{subsection.3.2.2}{Observation Data}{section.3.2}% 39
+\BOOKMARK [2][]{subsection.3.2.3}{METplus}{section.3.2}% 40
+\BOOKMARK [1][]{section.3.3}{Modules for Workflow Tasks}{chapter.3}% 41
+\BOOKMARK [1][]{section.3.4}{Launch of Workflow: `community' Mode}{chapter.3}% 42
+\BOOKMARK [2][]{subsection.3.4.1}{Launch with the `launch\137FV3LAM\137wflow.sh' Script}{section.3.4}% 43
+\BOOKMARK [2][]{subsection.3.4.2}{Launch Manually by Calling the rocotorun Command}{section.3.4}% 44
+\BOOKMARK [2][]{subsection.3.4.3}{How to Restart a `DEAD' Task}{section.3.4}% 45
+\BOOKMARK [2][]{subsection.3.4.4}{How to Re-run Forecast and Post Tasks Only }{section.3.4}% 46
+\BOOKMARK [1][]{section.3.5}{Launch of Workflow: `nco' Mode}{chapter.3}% 47
+\BOOKMARK [2][]{subsection.3.5.1}{Mosaic Halo Files}{section.3.5}% 48
+\BOOKMARK [2][]{subsection.3.5.2}{Launch with the `launch\137FV3LAM\137wflow.sh' Script}{section.3.5}% 49
+\BOOKMARK [1][]{section.3.6}{Automatic Resubmission with Cron}{chapter.3}% 50
+\BOOKMARK [2][]{subsection.3.6.1}{Syntax of Crontab}{section.3.6}% 51
+\BOOKMARK [2][]{subsection.3.6.2}{Setting up Command Line on Hera / WCOSS Cray}{section.3.6}% 52
+\BOOKMARK [2][]{subsection.3.6.3}{Setting up Command Line on WCOSS Dell}{section.3.6}% 53
+\BOOKMARK [2][]{subsection.3.6.4}{Sample Command for Launch Script}{section.3.6}% 54
+\BOOKMARK [1][]{section.3.7}{Output}{chapter.3}% 55
+\BOOKMARK [2][]{subsection.3.7.1}{Type of Output Files}{section.3.7}% 56
+\BOOKMARK [2][]{subsection.3.7.2}{Output Files: `community' Mode}{section.3.7}% 57
+\BOOKMARK [2][]{subsection.3.7.3}{Output Files: `nco' Mode}{section.3.7}% 58
+\BOOKMARK [0][]{chapter.4}{Workflow End-to-End \(WE2E\) Tests}{}% 59
+\BOOKMARK [1][]{section.4.1}{Components of WE2E Tests}{chapter.4}% 60
+\BOOKMARK [1][]{section.4.2}{Tests Available on Specific Machines}{chapter.4}% 61
+\BOOKMARK [1][]{section.4.3}{Data for WE2E Tests}{chapter.4}% 62
+\BOOKMARK [1][]{section.4.4}{Running WE2E Tests}{chapter.4}% 63
+\BOOKMARK [0][]{chapter.5}{UFS\137UTILS: Grid and Static Fields with Workflow}{}% 64
+\BOOKMARK [1][]{section.5.1}{ESG Grid and GFDL Grid Refinement}{chapter.5}% 65
+\BOOKMARK [2][]{subsection.5.1.1}{Adding a New Pre-defined Grid to Workflow}{section.5.1}% 66
+\BOOKMARK [2][]{subsection.5.1.2}{Flowchart of the Grid-generation Job in Workflow}{section.5.1}% 67
+\BOOKMARK [2][]{subsection.5.1.3}{Global Equivalent Resolution}{section.5.1}% 68
+\BOOKMARK [2][]{subsection.5.1.4}{Parameters for an ESG grid}{section.5.1}% 69
+\BOOKMARK [2][]{subsection.5.1.5}{Parameters for a GFDL grid}{section.5.1}% 70
+\BOOKMARK [2][]{subsection.5.1.6}{Running a Workflow for a New Grid with an Example}{section.5.1}% 71
+\BOOKMARK [1][]{section.5.2}{Orography}{chapter.5}% 72
+\BOOKMARK [1][]{section.5.3}{Regional Static \(Fix\) Fields: Surface Climatology}{chapter.5}% 73
+\BOOKMARK [1][]{section.5.4}{Path to Machine-specific FIX Files}{chapter.5}% 74
+\BOOKMARK [0][]{chapter.6}{UFS\137UTILS: GFDL Grid and Static Fields without Workflow}{}% 75
+\BOOKMARK [1][]{section.6.1}{Structure of Pre-processing}{chapter.6}% 76
+\BOOKMARK [1][]{section.6.2}{Grid Generation}{chapter.6}% 77
+\BOOKMARK [1][]{section.6.3}{Orography Generation}{chapter.6}% 78
+\BOOKMARK [1][]{section.6.4}{Filtering Topography}{chapter.6}% 79
+\BOOKMARK [1][]{section.6.5}{Halo Files for Boundary, FV3, and chgres\137cube}{chapter.6}% 80
+\BOOKMARK [1][]{section.6.6}{Regional Static \(Fix\) Fields: Surface Climatology}{chapter.6}% 81
+\BOOKMARK [0][]{chapter.7}{UFS\137UTILS: Initial and Lateral Boundary Fields}{}% 82
+\BOOKMARK [1][]{section.7.1}{External Model Data for IC/LBC in Workflow}{chapter.7}% 83
+\BOOKMARK [2][]{subsection.7.1.1}{Machine-specific External Data}{section.7.1}% 84
+\BOOKMARK [2][]{subsection.7.1.2}{User-staged External Data}{section.7.1}% 85
+\BOOKMARK [1][]{section.7.2}{Global Time-dependent Data}{chapter.7}% 86
+\BOOKMARK [2][]{subsection.7.2.1}{GFS Data: GRIB2}{section.7.2}% 87
+\BOOKMARK [2][]{subsection.7.2.2}{GFS Data: NetCDF}{section.7.2}% 88
+\BOOKMARK [1][]{section.7.3}{chgres\137cube}{chapter.7}% 89
+\BOOKMARK [2][]{subsection.7.3.1}{Namelist of chgres\137cube}{section.7.3}% 90
+\BOOKMARK [2][]{subsection.7.3.2}{Output Attributes}{section.7.3}% 91
+\BOOKMARK [1][]{section.7.4}{Initial Conditions: Cold Start}{chapter.7}% 92
+\BOOKMARK [1][]{section.7.5}{Lateral Boundary Conditions}{chapter.7}% 93
+\BOOKMARK [0][]{chapter.8}{Unified Post Processor \(UPP\)}{}% 94
+\BOOKMARK [1][]{section.8.1}{Converting into GRIB2}{chapter.8}% 95
+\BOOKMARK [0][]{chapter.9}{METplus}{}% 96
+\BOOKMARK [1][]{section.9.1}{AWS METviewer}{chapter.9}% 97
+\BOOKMARK [2][]{subsection.9.1.1}{Scripts for AWS METviewer}{section.9.1}% 98
+\BOOKMARK [2][]{subsection.9.1.2}{Log-in}{section.9.1}% 99
+\BOOKMARK [0][]{chapter.10}{UFS Weather Model}{}% 100
+\BOOKMARK [1][]{section.10.1}{Structure of the UFS Weather Model}{chapter.10}% 101
+\BOOKMARK [1][]{section.10.2}{Compiling the UFS Weather Model}{chapter.10}% 102
+\BOOKMARK [2][]{subsection.10.2.1}{Building in the \173UFS\137HOME\175 Directoy}{section.10.2}% 103
+\BOOKMARK [2][]{subsection.10.2.2}{Building in the `\173UFS\137HOME\175/tests' Directory}{section.10.2}% 104
+\BOOKMARK [2][]{subsection.10.2.3}{Building the DEBUG mode}{section.10.2}% 105
+\BOOKMARK [1][]{section.10.3}{Regression Test}{chapter.10}% 106
+\BOOKMARK [2][]{subsection.10.3.1}{Running Regression Test}{section.10.3}% 107
+\BOOKMARK [2][]{subsection.10.3.2}{Building a Specific Test Case from Regression Test}{section.10.3}% 108
+\BOOKMARK [1][]{section.10.4}{Unit Test}{chapter.10}% 109
+\BOOKMARK [2][]{subsection.10.4.1}{Components of the Unit Test}{section.10.4}% 110
+\BOOKMARK [2][]{subsection.10.4.2}{Running Unit Test}{section.10.4}% 111
+\BOOKMARK [2][]{subsection.10.4.3}{Input and Output}{section.10.4}% 112
+\BOOKMARK [1][]{section.10.5}{Initial and Lateral Boundary Fields}{chapter.10}% 113
+\BOOKMARK [2][]{subsection.10.5.1}{Source Codes}{section.10.5}% 114
+\BOOKMARK [2][]{subsection.10.5.2}{Regional Boundary Update}{section.10.5}% 115
+\BOOKMARK [1][]{section.10.6}{Restart Option: Warm Start}{chapter.10}% 116
+\BOOKMARK [2][]{subsection.10.6.1}{Regression Test for a Regional Restart}{section.10.6}% 117
+\BOOKMARK [2][]{subsection.10.6.2}{Checklist for a Restart Run}{section.10.6}% 118
+\BOOKMARK [1][]{section.10.7}{Near-boundary Blending}{chapter.10}% 119
+\BOOKMARK [2][]{subsection.10.7.1}{Blending in a Forecast Run}{section.10.7}% 120
+\BOOKMARK [2][]{subsection.10.7.2}{Blending in a DA Run}{section.10.7}% 121
+\BOOKMARK [2][]{subsection.10.7.3}{Modification of the source code}{section.10.7}% 122
+\BOOKMARK [0][]{chapter.11}{Code Management on GitHub}{}% 123
+\BOOKMARK [1][]{section.11.1}{Modification of the UFS Weather Model on GitHub}{chapter.11}% 124
+\BOOKMARK [2][]{subsection.11.1.1}{Overall Steps of Modification and Pull Request}{section.11.1}% 125
+\BOOKMARK [2][]{subsection.11.1.2}{Structure of the UFS Weather Model and Its Sub-components}{section.11.1}% 126
+\BOOKMARK [2][]{subsection.11.1.3}{Forking the UFS Weather Model and Sub-components}{section.11.1}% 127
+\BOOKMARK [2][]{subsection.11.1.4}{Cloning the UFS Weather Model}{section.11.1}% 128
+\BOOKMARK [2][]{subsection.11.1.5}{Configuring Git Remotes for the Cloned Sub-component}{section.11.1}% 129
+\BOOKMARK [2][]{subsection.11.1.6}{Updating the Branch in the Cloned Sub-component}{section.11.1}% 130
+\BOOKMARK [2][]{subsection.11.1.7}{Creating a New Feature Branch of the Sub-component}{section.11.1}% 131
+\BOOKMARK [2][]{subsection.11.1.8}{Making Changes to the Feature Branch of the Sub-component}{section.11.1}% 132
+\BOOKMARK [2][]{subsection.11.1.9}{Committing and Pushing Your Changes}{section.11.1}% 133
+\BOOKMARK [2][]{subsection.11.1.10}{Configuring the UFS Weather Model \(Parent Repo.\)}{section.11.1}% 134
+\BOOKMARK [2][]{subsection.11.1.11}{Updating the Branch of the UFS Weather Model}{section.11.1}% 135
+\BOOKMARK [2][]{subsection.11.1.12}{Updating the `.gitmodules' File}{section.11.1}% 136
+\BOOKMARK [2][]{subsection.11.1.13}{Create a New Feature Branch of the UFS Weather Model}{section.11.1}% 137
+\BOOKMARK [2][]{subsection.11.1.14}{Committing the `.gitmodules' File and Submodules}{section.11.1}% 138
+\BOOKMARK [2][]{subsection.11.1.15}{Creating Pull Requests \(PR\)}{section.11.1}% 139
+\BOOKMARK [2][]{subsection.11.1.16}{Modifying the Feature Branch}{section.11.1}% 140
+\BOOKMARK [2][]{subsection.11.1.17}{Pointing Submodule to the Develop Branch}{section.11.1}% 141
+\BOOKMARK [2][]{subsection.11.1.18}{Deleting the Feature Branch}{section.11.1}% 142
+\BOOKMARK [2][]{subsection.11.1.19}{Deleting the Forked Repository}{section.11.1}% 143
+\BOOKMARK [1][]{section.11.2}{Modification of Regional Workflow in SRW App on GitHub}{chapter.11}% 144
+\BOOKMARK [2][]{subsection.11.2.1}{Modification of UFS SRW App}{section.11.2}% 145
+\BOOKMARK [2][]{subsection.11.2.2}{Modification of Regional Workflow}{section.11.2}% 146
+\BOOKMARK [2][]{subsection.11.2.3}{Cloning Your Fork's Branches to Other Machines}{section.11.2}% 147
+\BOOKMARK [2][]{subsection.11.2.4}{Updating Cloned SRW and Workflow with the Latest Versions}{section.11.2}% 148
+\BOOKMARK [2][]{subsection.11.2.5}{Cloning Another Remote Branch to the Local Repository}{section.11.2}% 149
+\BOOKMARK [0][]{chapter.12}{Supporting Tools}{}% 150
+\BOOKMARK [1][]{section.12.1}{Grid Coordinates: fv3grid}{chapter.12}% 151
+\BOOKMARK [2][]{subsection.12.1.1}{Regional Domain}{section.12.1}% 152
+\BOOKMARK [2][]{subsection.12.1.2}{Rotated Domain for `output\137grid'}{section.12.1}% 153
+\BOOKMARK [2][]{subsection.12.1.3}{A\205Kappa \(\205\) Domain for an ESG \(JP\) Grid}{section.12.1}% 154
+\BOOKMARK [1][]{section.12.2}{Plotting with Python}{chapter.12}% 155
+\BOOKMARK [2][]{subsection.12.2.1}{`Natural Earth' Data for Background}{section.12.2}% 156
+\BOOKMARK [2][]{subsection.12.2.2}{Cartopy Background Image}{section.12.2}% 157
+\BOOKMARK [2][]{subsection.12.2.3}{Modules}{section.12.2}% 158
+\BOOKMARK [2][]{subsection.12.2.4}{Installation of Miniconda \(Anaconda\)}{section.12.2}% 159
+\BOOKMARK [2][]{subsection.12.2.5}{Python Scripts on GitHub}{section.12.2}% 160
+\BOOKMARK [2][]{subsection.12.2.6}{Grid and Orography}{section.12.2}% 161
+\BOOKMARK [2][]{subsection.12.2.7}{Static Fields: Regional \(`fix\137lam'\)}{section.12.2}% 162
+\BOOKMARK [2][]{subsection.12.2.8}{Static Fields: Global \(`fix\137am'\)}{section.12.2}% 163
+\BOOKMARK [2][]{subsection.12.2.9}{Time-dependent IC/LBC Fields}{section.12.2}% 164
+\BOOKMARK [2][]{subsection.12.2.10}{Initial Surface Climatology Fields}{section.12.2}% 165
+\BOOKMARK [2][]{subsection.12.2.11}{Historical CO2 Data}{section.12.2}% 166
+\BOOKMARK [2][]{subsection.12.2.12}{Output: `grid\137spec'}{section.12.2}% 167
+\BOOKMARK [2][]{subsection.12.2.13}{Output: `atmos\137static'}{section.12.2}% 168
+\BOOKMARK [2][]{subsection.12.2.14}{Output: `fv3\137history2d' - Boundary}{section.12.2}% 169
+\BOOKMARK [2][]{subsection.12.2.15}{Output: `dynf'}{section.12.2}% 170
+\BOOKMARK [2][]{subsection.12.2.16}{Output: `phyf'}{section.12.2}% 171
+\BOOKMARK [2][]{subsection.12.2.17}{Output: `BGRD3D \(natlev.grib2\)'}{section.12.2}% 172
+\BOOKMARK [2][]{subsection.12.2.18}{Output: `BGDAWP \(natprs.grib2\)'}{section.12.2}% 173
+\BOOKMARK [2][]{subsection.12.2.19}{Output: Comparison of Two NetCDF \(GRIB2\) Files}{section.12.2}% 174
+\BOOKMARK [2][]{subsection.12.2.20}{MRMS: Composite Reflectivity Radar Data}{section.12.2}% 175
+\BOOKMARK [2][]{subsection.12.2.21}{Animation: Hourly Comparison of Composite Reflectivity}{section.12.2}% 176
+\BOOKMARK [2][]{subsection.12.2.22}{Time-history of Maximum Temperature}{section.12.2}% 177
+\BOOKMARK [0][]{appendix.A}{Workflow Manager: Rocoto}{}% 178
+\BOOKMARK [1][]{section.A.1}{How the Rocoto Engine Works}{appendix.A}% 179
+\BOOKMARK [1][]{section.A.2}{Rocoto XML Language}{appendix.A}% 180
+\BOOKMARK [0][]{appendix.B}{Data Transfer from/to/between NOAA HPCs}{}% 181
+\BOOKMARK [1][]{section.B.1}{Trusted Data Transfer Node: Between NOAA HPCs}{appendix.B}% 182
+\BOOKMARK [2][]{subsection.B.1.1}{On Hera}{section.B.1}% 183
+\BOOKMARK [2][]{subsection.B.1.2}{On WCOSS}{section.B.1}% 184
+\BOOKMARK [2][]{subsection.B.1.3}{On Orion}{section.B.1}% 185
+\BOOKMARK [1][]{section.B.2}{Data Transfer from HPSS}{appendix.B}% 186
+\BOOKMARK [2][]{subsection.B.2.1}{On Hera}{section.B.2}% 187
+\BOOKMARK [1][]{section.B.3}{External Data Transfer from Hera to Local Desktop}{appendix.B}% 188
+\BOOKMARK [1][]{section.B.4}{SSH Port Tunnel from Linux-like Systems: Between Desktop and HPC}{appendix.B}% 189
+\BOOKMARK [0][]{appendix.C}{HPC Job Commands}{}% 190
+\BOOKMARK [1][]{section.C.1}{Hera}{appendix.C}% 191
+\BOOKMARK [2][]{subsection.C.1.1}{Slurm}{section.C.1}% 192
+\BOOKMARK [2][]{subsection.C.1.2}{Other Useful Commands}{section.C.1}% 193
+\BOOKMARK [1][]{section.C.2}{WCOSS}{appendix.C}% 194
+\BOOKMARK [2][]{subsection.C.2.1}{LSF}{section.C.2}% 195
+\BOOKMARK [1][]{section.C.3}{Orion}{appendix.C}% 196
+\BOOKMARK [2][]{subsection.C.3.1}{Slurm}{section.C.3}% 197
+\BOOKMARK [2][]{subsection.C.3.2}{Other Useful Commands}{section.C.3}% 198
+\BOOKMARK [0][]{appendix.D}{Reference Documentations}{}% 199

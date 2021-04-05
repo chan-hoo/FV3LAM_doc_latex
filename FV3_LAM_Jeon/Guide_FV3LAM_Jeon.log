@@ -1,0 +1,3214 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  5 APR 2021 09:56
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Guide_FV3LAM_Jeon.tex
+(./Guide_FV3LAM_Jeon.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 2016/12/29 v1.2a Standard LaTeX option (flush left equations)
+\mathindent=\dimen102
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/03/24 v5.7 Page Geometry
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen104
+\Gm@wd@mp=\dimen105
+\Gm@odd@mp=\dimen106
+\Gm@even@mp=\dimen107
+\Gm@layoutwidth=\dimen108
+\Gm@layoutheight=\dimen109
+\Gm@layouthoffset=\dimen110
+\Gm@layoutvoffset=\dimen111
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
+\col@sep=\dimen112
+\ar@mcellbox=\box26
+\extrarowheight=\dimen113
+\NC@list=\toks16
+\extratabsurround=\skip43
+\backup@length=\skip44
+\ar@cellbox=\box27
+)
+\everycr=\toks17
+\minrowclearance=\skip45
+)
+\rownum=\count92
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen114
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen115
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen116
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip10
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks19
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks20
+\eqnshift@=\dimen117
+\alignsep@=\dimen118
+\tagshift@=\dimen119
+\tagwidth@=\dimen120
+\totwidth@=\dimen121
+\lineht@=\dimen122
+\@envbody=\toks21
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks23
+\pgfutil@tempdima=\dimen123
+\pgfutil@tempdimb=\dimen124
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box30
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks26
+))
+\pgf@x=\dimen127
+\pgf@y=\dimen128
+\pgf@xa=\dimen129
+\pgf@ya=\dimen130
+\pgf@xb=\dimen131
+\pgf@yb=\dimen132
+\pgf@xc=\dimen133
+\pgf@yc=\dimen134
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count105
+\c@pgf@countb=\count106
+\c@pgf@countc=\count107
+\c@pgf@countd=\count108
+\t@pgf@toka=\toks27
+\t@pgf@tokb=\toks28
+\t@pgf@tokc=\toks29
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count109
+\pgfsyssoftpath@bigbuffer@items=\count110
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen135
+\pgfmath@count=\count111
+\pgfmath@box=\box31
+\pgfmath@toks=\toks30
+\pgfmath@stack@operand=\toks31
+\pgfmath@stack@operation=\toks32
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count112
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen136
+\pgf@picmaxx=\dimen137
+\pgf@picminy=\dimen138
+\pgf@picmaxy=\dimen139
+\pgf@pathminx=\dimen140
+\pgf@pathmaxx=\dimen141
+\pgf@pathminy=\dimen142
+\pgf@pathmaxy=\dimen143
+\pgf@xx=\dimen144
+\pgf@xy=\dimen145
+\pgf@yx=\dimen146
+\pgf@yy=\dimen147
+\pgf@zx=\dimen148
+\pgf@zy=\dimen149
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen150
+\pgf@path@lasty=\dimen151
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen152
+\pgf@shorten@start@additional=\dimen153
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box32
+\pgf@hbox=\box33
+\pgf@layerbox@main=\box34
+\pgf@picture@serial@count=\count113
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen154
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen155
+\pgf@pt@y=\dimen156
+\pgf@pt@temp=\dimen157
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen158
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen159
+\pgf@sys@shading@range@num=\count114
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box35
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box36
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen160
+\pgf@nodesepend=\dimen161
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen162
+\pgffor@skip=\dimen163
+\pgffor@stack=\toks33
+\pgffor@toks=\toks34
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count115
+\pgfplotmarksize=\dimen164
+)
+\tikz@lastx=\dimen165
+\tikz@lasty=\dimen166
+\tikz@lastxsaved=\dimen167
+\tikz@lastysaved=\dimen168
+\tikzleveldistance=\dimen169
+\tikzsiblingdistance=\dimen170
+\tikz@figbox=\box37
+\tikz@figbox@bg=\box38
+\tikz@tempbox=\box39
+\tikz@tempbox@bg=\box40
+\tikztreelevel=\count116
+\tikznumberofchildren=\count117
+\tikznumberofcurrentchild=\count118
+\tikz@fig@count=\count119
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count120
+\pgfmatrixcurrentcolumn=\count121
+\pgf@matrix@numberofcolumns=\count122
+)
+\tikz@expandcount=\count123
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks35
+\thm@bodyfont=\toks36
+\thm@headfont=\toks37
+\thm@notefont=\toks38
+\thm@headpunct=\toks39
+\thm@preskip=\skip49
+\thm@postskip=\skip50
+\thm@headsep=\skip51
+\dth@everypar=\toks40
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/preprint/authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip52
+\@affilsep=\skip53
+\c@Maxaffil=\count124
+\c@authors=\count125
+\c@affil=\count126
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/avant.sty
+Package: avant 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count127
+\calc@Bcount=\count128
+\calc@Adimen=\dimen171
+\calc@Bdimen=\dimen172
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count129
+\calc@Cskip=\skip56
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen173
+\captionmargin@=\dimen174
+\captionwidth=\dimen175
+\caption@tempdima=\dimen176
+\caption@indent=\dimen177
+\caption@parindent=\dimen178
+\caption@hangindent=\dimen179
+)
+\c@ContinuedFloat=\count130
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/capt-of/capt-of.sty
+Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write4
+
+Excluding comment 'comment')
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/courier.sty
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/dirtree/dirtree.sty
+Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/dirtree/dirtree.tex
+`dirtree' v0.32, 2012/12/11 (jcc)
+\DT@offset=\dimen180
+\DT@width=\dimen181
+\DT@sep=\dimen182
+\DT@all=\dimen183
+\DT@rulewidth=\dimen184
+\DT@dotwidth=\dimen185
+\DTbaselineskip=\dimen186
+\DT@counti=\count131
+\DT@countii=\count132
+\DT@countiii=\count133
+\DT@countiv=\count134
+\DT@indent=\dimen187
+\DT@parskip=\dimen188
+\DT@baselineskip=\dimen189
+)
+File: dirtree.tex 2012/12/11 v0.32 `dirtree' (jcc)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip57
+\f@nch@O@elh=\skip58
+\f@nch@O@erh=\skip59
+\f@nch@O@olh=\skip60
+\f@nch@O@orh=\skip61
+\f@nch@O@elf=\skip62
+\f@nch@O@erf=\skip63
+\f@nch@O@olf=\skip64
+\f@nch@O@orf=\skip65
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count135
+\float@exts=\toks41
+\float@box=\box41
+\@float@everytoks=\toks42
+\@floatcapt=\box42
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count136
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count137
+\lst@gtempboxa=\box43
+\lst@token=\toks43
+\lst@length=\count138
+\lst@currlwidth=\dimen190
+\lst@column=\count139
+\lst@pos=\count140
+\lst@lostspace=\dimen191
+\lst@width=\dimen192
+\lst@newlines=\count141
+\lst@lineno=\count142
+\lst@maxwidth=\dimen193
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count143
+\lst@skipnumbers=\count144
+\lst@framebox=\box44
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip66
+\LTright=\skip67
+\LTpre=\skip68
+\LTpost=\skip69
+\LTchunksize=\count145
+\LTcapwidth=\dimen194
+\LT@head=\box45
+\LT@firsthead=\box46
+\LT@foot=\box47
+\LT@lastfoot=\box48
+\LT@cols=\count146
+\LT@rows=\count147
+\c@LT@tables=\count148
+\c@LT@chunks=\count149
+\LT@p@ftn=\toks44
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
+\MT@toks=\toks45
+\MT@count=\count150
+LaTeX Info: Redefining \textls on input line 793.
+\MT@outer@kern=\dimen195
+LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
+\MT@listname@count=\count151
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 913.
+LaTeX Info: Redefining \lslig on input line 913.
+\MT@outer@space=\skip70
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip71
+\subfigcapskip=\skip72
+\subfigcaptopadj=\dimen196
+\subfigbottomskip=\skip73
+\subfigcapmargin=\dimen197
+\subfiglabelskip=\skip74
+\c@subfigure=\count152
+\c@lofdepth=\count153
+\c@subtable=\count154
+\c@lotdepth=\count155
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip75
+\subfig@bottom=\skip76
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box49
+\sift@deathcycles=\count156
+\@vwid@loff=\dimen198
+\@vwid@roff=\dimen199
+)
+\c@taburow=\count157
+\tabu@nbcols=\count158
+\tabu@cnt=\count159
+\tabu@Xcol=\count160
+\tabu@alloc=\count161
+\tabu@nested=\count162
+\tabu@target=\dimen256
+\tabu@spreadtarget=\dimen257
+\tabu@naturalX=\dimen258
+\tabucolX=\dimen259
+\tabu@Xsum=\dimen260
+\extrarowdepth=\dimen261
+\abovetabulinesep=\dimen262
+\belowtabulinesep=\dimen263
+\tabustrutrule=\dimen264
+\tabu@thebody=\toks46
+\tabu@footnotes=\toks47
+\tabu@box=\box50
+\tabu@arstrutbox=\box51
+\tabu@hleads=\box52
+\tabu@vleads=\box53
+\tabu@cellskip=\skip77
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip78
+\multirow@cntb=\count163
+\multirow@dima=\skip79
+\bigstrutjot=\dimen265
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen266
+\Hy@linkcounter=\count164
+\Hy@pagecounter=\count165
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count166
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4383.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count167
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen267
+\Fld@menulength=\count168
+\Field@Width=\dimen268
+\Fld@charsize=\dimen269
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring ON on input line 6387.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count169
+\c@Item=\count170
+\c@Hfootnote=\count171
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count172
+\c@bookmark@seq@number=\count173
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip80
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/txfonts.sty
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/ztmcm/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/ztmcm/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+LaTeX Font Info:    Redeclaring symbol font `italic' on input line 25.
+LaTeX Font Info:    Overwriting symbol font `italic' in version `normal'
+(Font)                  OT1/ptm/m/it --> OT1/txr/m/it on input line 25.
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/ptm/m/it --> OT1/txr/m/it on input line 25.
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/ptm/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/ptm/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/ptm/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/ptm/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/ztmcm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/ztmcm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/ztmcm/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/ztmcm/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+\symAMSa=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+\symAMSb=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/ztmcm/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/ztmcm/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Info: Redefining \not on input line 1043.
+LaTeX Info: Redefining \textsquare on input line 1063.
+LaTeX Info: Redefining \openbox on input line 1064.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count174
+\U@D=\dimen270
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count175
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip81
+\bibsep=\skip82
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count176
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/arydshln/arydshln.sty
+Package: arydshln 2016/04/28 v1.73 
+\dashlinedash=\dimen271
+\dashlinegap=\dimen272
+\adl@box=\box54
+\adl@height=\dimen273
+\adl@heightsave=\dimen274
+\adl@depth=\dimen275
+\adl@depthsave=\dimen276
+\adl@finaldepth=\dimen277
+\adl@columns=\count177
+\adl@ncol=\count178
+\adl@currentcolumn=\count179
+\adl@currentcolumnsave=\count180
+\adl@totalheight=\count181
+\adl@totalheightsave=\count182
+\adl@dash=\count183
+\adl@gap=\count184
+\adl@cla=\count185
+\adl@clb=\count186
+\adl@everyvbox=\toks48
+\adl@LTpagetotal=\dimen278
+)
+(./Guide_FV3LAM_Jeon.aux
+
+LaTeX Warning: Label `table:wflow_udef_dir' multiply defined.
+
+
+LaTeX Warning: Label `table:fix_dir_hera' multiply defined.
+
+
+LaTeX Warning: Label `table:fix_dir_hera' multiply defined.
+
+
+LaTeX Warning: Label `table:fix_dir_hera' multiply defined.
+
+
+LaTeX Warning: Label `table:var_gridgen' multiply defined.
+
+
+LaTeX Warning: Label `table:var_oro_sh' multiply defined.
+
+
+LaTeX Warning: Label `table:var_oro_sh' multiply defined.
+
+
+LaTeX Warning: Label `table:namelist_ic_chgres' multiply defined.
+
+
+LaTeX Warning: Label `table:fv3_var_gridspec' multiply defined.
+
+
+LaTeX Warning: Label `table:fv3_var_dyn' multiply defined.
+
+)
+\openout1 = `Guide_FV3LAM_Jeon.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 91.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 91.
+
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/omltxmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 91.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 91.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/omstxsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 91.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 91.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/omxtxex.fd
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 91.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 91.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxexa.fd
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 91.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Try loading font information for T1+txr on input line 91.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/t1txr.fd
+File: t1txr.fd 2000/12/15 v3.1
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-15.87262pt
+* \headheight=14.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count187
+\scratchdimen=\dimen279
+\scratchbox=\box55
+\nofMPsegments=\count188
+\nofMParguments=\count189
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count190
+\MPscratchDim=\dimen280
+\MPnumerator=\count191
+\makeMPintoPDFobject=\count192
+\everyMPtoPDFconversion=\toks50
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
+Package caption Info: subfigure package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 91.
+\c@lstlisting=\count193
+LaTeX Info: Redefining \microtypecontext on input line 91.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+\AtBeginShipoutBox=\box56
+Package hyperref Info: Link coloring ON on input line 91.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count194
+)
+LaTeX Info: Redefining \ref on input line 91.
+LaTeX Info: Redefining \pageref on input line 91.
+LaTeX Info: Redefining \nameref on input line 91.
+
+(./Guide_FV3LAM_Jeon.out) (./Guide_FV3LAM_Jeon.out)
+\@outlinefile=\write5
+\openout5 = `Guide_FV3LAM_Jeon.out'.
+
+\symgns@font=\mathgroup11
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/txr/m/n --> TS1/txr/bx/n on input line 91.
+Package gensymb Info: Math companion symbols declared on input line 91.
+LaTeX Info: Redefining \degree on input line 91.
+LaTeX Info: Redefining \celsius on input line 91.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 91.
+LaTeX Info: Redefining \ohm on input line 91.
+Package gensymb Info: Using \textohm for \ohm on input line 91.
+Package gensymb Info: Using \textmu for \micro on input line 91.
+ [1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Guid
+e_FV3LAM_Jeon.toc
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 4.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 4.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 4.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsya on input line 4.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 4.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 4.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for TS1+txr on input line 4.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/ts1txr.fd
+File: ts1txr.fd 2000/12/15 v3.1
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 ... {2.6.3}data\_table}{52}{subsection.2.6.3}
+                                                   [1
+
+] [2] [3] [4] [5] [6])
+\tf@toc=\write6
+\openout6 = `Guide_FV3LAM_Jeon.toc'.
+
+
+[7]
+Chapter 1.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 119.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `txtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [8
+
+]
+LaTeX Font Info:    Font shape `T1/txtt/m/it' in size <10> not available
+(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 181.
+ [9]
+[10] [11] [12
+
+] [13]
+Chapter 2.
+[14
+
+]
+<FV3LAM_wflow_overall.png, id=1201, 396.0396pt x 632.1216pt>
+File: FV3LAM_wflow_overall.png Graphic file (type png)
+<use FV3LAM_wflow_overall.png>
+Package pdftex.def Info: FV3LAM_wflow_overall.png  used on input line 407.
+(pdftex.def)             Requested size: 258.00539pt x 411.80977pt.
+ [15 <./FV3LAM_wflow_overall.png>] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
+
+ []
+
+[17] [18]
+
+LaTeX Warning: Text page 19 contains only floats.
+
+[19] [20]
+Underfull \hbox (badness 10000) in paragraph at lines 693--694
+
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 707--708
+[]|\T1/txr/m/n/10 (+20) Sections [][]3.5.1[][]
+ []
+
+[21] [22] [23] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 854--855
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 856--857
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 870.
+[25]
+<Fv3regional_workflow_gen.png, id=1436, 517.935pt x 658.1388pt>
+File: Fv3regional_workflow_gen.png Graphic file (type png)
+<use Fv3regional_workflow_gen.png>
+Package pdftex.def Info: Fv3regional_workflow_gen.png  used on input line 952.
+(pdftex.def)             Requested size: 344.005pt x 437.14464pt.
+ [26] [27 <./Fv3regional_workflow_gen.png>]
+Overfull \hbox (2.34721pt too wide) in paragraph at lines 980--980
+[]|\T1/txr/m/n/10 (-20) No.| 
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 982.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 982.
+
+Overfull \hbox (2.03072pt too wide) in paragraph at lines 988--988
+[]|\T1/txr/m/n/10 (-20) CONUS_25km_GFDLgrid| 
+ []
+
+[28] [29]
+Underfull \hbox (badness 8094) in paragraph at lines 1080--1081
+[]|\T1/txr/m/n/8 ``RRFS_CONUS_25km'', ``RRFS_CONUS_13km'', ``RRFS_CONUS_3km'',
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1080--1081
+\T1/txr/m/n/8 ``RRFS_SUBCONUS_3km'', ``RRFS_AK_13km'', ``RRFS_AK_3km,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1080--1081
+\T1/txr/m/n/8 ``CONUS_25km_GFDLgrid'', ``CONUS_3km_GFDLgrid'', ``EMC_AK'',
+ []
+
+
+Underfull \hbox (badness 5388) in paragraph at lines 1080--1081
+\T1/txr/m/n/8 ``EMC_HI'', ``EMC_PR'', ``EMC_GU'', ``GSL_HAFSV0.A_25km'', ``GSL_
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1080--1081
+\T1/txr/m/n/8 HAFSV0.A_13km'', ``GSL_HAFSV0.A_3km'', ``GSD_HRRR_AK_50km'',
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1081--1082
+[]|\T1/txr/m/n/8 ``FV3_CPT_v0'', ``FV3_GFS_2017_gfdlmp_regional'', ``FV3_GSD_SA
+R'',
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 1081--1082
+\T1/txr/m/n/8 ``FV3_GSD_v0'', ``FV3_GFS_v15p2'', ``FV3_GFS_v16beta'', ``FV3_RRF
+S_
+ []
+
+
+Overfull \hbox (2.40536pt too wide) in alignment at lines 1071--1095
+ [] [] [] 
+ []
+
+
+Overfull \hbox (1.52531pt too wide) in paragraph at lines 1103--1103
+[]|\T1/txr/m/n/8 USE_CUSTOM_POST_CONFIG_FILE| 
+ []
+
+
+Overfull \hbox (2.40536pt too wide) in alignment at lines 1095--1113
+ [] [] [] 
+ []
+
+
+Overfull \hbox (2.40536pt too wide) has occurred while \output is active
+ [] [] [] 
+ []
+
+[30]
+Overfull \hbox (2.40536pt too wide) has occurred while \output is active
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 1142--1142
+[]|\T1/txr/m/n/9 (+20) GFS Scale-aware Sim-pli-fied Arakawa-
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 1142--1143
+[]|\T1/txr/m/n/9 (+20) GFS Scale-aware Sim-pli-fied Arakawa-
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1149.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1149.
+[31] [32]
+Overfull \hbox (2.44191pt too wide) in paragraph at lines 1219--1219
+[]|\T1/txr/m/n/8 CRON_RELAUNCH_INTVL_MNTS| 
+ []
+
+
+Overfull \hbox (0.917pt too wide) in paragraph at lines 1253--1253
+[]|\T1/txr/m/n/8 FIXLAM_NCO_BASEDIR| 
+ []
+
+[33]
+Overfull \hbox (0.80333pt too wide) in paragraph at lines 1291--1291
+[]|\T1/txr/m/n/8 RGNL_GRID_NML_FN| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1295--1295
+[]|\T1/txr/m/n/8 FV3_NML_BASE_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1296--1296
+[]|\T1/txr/m/n/8 FV3_NML_YAML_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1297--1297
+[]|\T1/txr/m/n/8 FV3_NML_BASE_ENS
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 1298--1298
+[]|\T1/txr/m/n/8 Name of the file con-tain-ing set-tings and con-fig-u-ra-tions
+ for the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1301--1302
+[]|\T1/txr/m/n/8 FV3LAM_wflow
+ []
+
+
+Overfull \hbox (0.77933pt too wide) in paragraph at lines 1302--1302
+[]|\T1/txr/m/n/8 GLOBAL_VAR_DEFNS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1303--1303
+[]|\T1/txr/m/n/8 EXTRN_MDL_ICS_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1303--1304
+[]|\T1/txr/m/n/8 extrn_mdl_ics
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1304--1304
+[]|\T1/txr/m/n/8 EXTRN_MDL_LBCS_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1304--1305
+[]|\T1/txr/m/n/8 extrn_mdl_lbcs
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1305--1305
+[]|\T1/txr/m/n/8 WFLOW_LAUNCH
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1305--1306
+[]|\T1/txr/m/n/8 launch_FV3LAM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1306--1306
+[]|\T1/txr/m/n/8 WFLOW_LAUNCH
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1306--1307
+[]|\T1/txr/m/n/8 log.launch_
+ []
+
+
+Overfull \hbox (1.5091pt too wide) in paragraph at lines 1327--1327
+[]|\T1/txr/m/n/8 DT_SUBHOURLY_POST
+ []
+
+[34] [35]
+Underfull \hbox (badness 10000) in paragraph at lines 1459--1459
+[]|\T1/txr/m/n/8 GFDLgrid_ISTART_OF_RGNL_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1460--1460
+[]|\T1/txr/m/n/8 GFDLgrid_IEND_OF_RGNL_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1461--1461
+[]|\T1/txr/m/n/8 GFDLgrid_JSTART_OF_RGNL_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1462--1462
+[]|\T1/txr/m/n/8 GFDLgrid_JEND_OF_RGNL_
+ []
+
+
+Overfull \hbox (4.2243pt too wide) in paragraph at lines 1463--1463
+[]|\T1/txr/m/n/8 GFDLgrid_USE_GFDLgrid_RES_
+ []
+
+[36]
+Overfull \hbox (1.04031pt too wide) in paragraph at lines 1494--1494
+[]|\T1/txr/m/n/8 ESGgrid_WIDE_HALO_WIDTH| 
+ []
+
+[37]
+Overfull \hbox (4.15709pt too wide) in paragraph at lines 1524--1524
+[]|\T1/txr/m/n/8 WRTCMP_write_tasks_per
+ []
+
+[38]
+Overfull \hbox (0.56812pt too wide) in paragraph at lines 1562--1562
+[]|\T1/txr/m/n/8 PREDEF_GRID_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1563--1563
+[]|\T1/txr/m/n/8 PREEXISTING_
+ []
+
+[39]
+Overfull \hbox (3.53621pt too wide) in paragraph at lines 1584--1584
+[]|\T1/txr/m/n/8 RUN_TASK_MAKE_SFC_CLIMO| 
+ []
+
+
+Overfull \hbox (2.41293pt too wide) in paragraph at lines 1611--1611
+[]|\T1/txr/m/n/8 FIXgsm_FILES_TO_COPY_
+ []
+
+
+Overfull \hbox (0.99693pt too wide) in paragraph at lines 1612--1612
+[]|\T1/txr/m/n/8 FV3_NML_VARNAME_TO
+ []
+
+
+Overfull \hbox (0.99693pt too wide) in paragraph at lines 1613--1613
+[]|\T1/txr/m/n/8 FV3_NML_VARNAME_TO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1613--1613
+\T1/txr/m/n/8 _SFC_CLIMO_FIELD
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1614--1614
+[]|\T1/txr/m/n/8 CYCLEDIR_LINKS_TO
+ []
+
+[40]
+Overfull \hbox (3.565pt too wide) in paragraph at lines 1645--1645
+[]|\T1/txr/m/n/8 VX_GRIDSTAT_REFC_TN| 
+ []
+
+[41] [42] [43]
+Overfull \hbox (2.72003pt too wide) in paragraph at lines 1835--1835
+[]|\T1/txr/m/n/8 USE_ZMTNBLCK| 
+ []
+
+[44]
+Overfull \hbox (1.02243pt too wide) in paragraph at lines 1892--1892
+[]|\T1/txr/m/n/8 FVCOM_FILE| 
+ []
+
+
+Overfull \hbox (5.83522pt too wide) in paragraph at lines 1892--1893
+[]|\T1/txr/m/n/8 fvcom.nc| 
+ []
+
+
+Overfull \vbox (4.98857pt too high) has occurred while \output is active []
+
+
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 1924--1924
+[]|\T1/txr/m/n/8 GWD_HRRRsuite_
+ []
+
+
+Overfull \hbox (2.98468pt too wide) in paragraph at lines 1956--1956
+[]|\T1/txr/m/n/9 (-20) ``BIG_COMPUTER''| 
+ []
+
+[46] [47]
+Overfull \hbox (1.82039pt too wide) in paragraph at lines 2051--2051
+[]|[]| 
+ []
+
+[48]
+Overfull \hbox (1.6602pt too wide) in paragraph at lines 2087--2087
+[]|\T1/txr/m/n/10 (-20) config_community_conus25_netcdf.sh| 
+ []
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 2088--2089
+[]|\T1/txr/m/n/10 (+20) community mode, CONUS 25km, ESG grid, pre-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+[]|\T1/txr/m/n/10 (+20) config_community_conus25_obs_
+ []
+
+[49] [50]
+Underfull \hbox (badness 10000) in paragraph at lines 2212--2213
+
+ []
+
+[51]
+<Fv3LAM_wflow_input_path.png, id=1654, 495.7722pt x 555.9972pt>
+File: Fv3LAM_wflow_input_path.png Graphic file (type png)
+<use Fv3LAM_wflow_input_path.png>
+Package pdftex.def Info: Fv3LAM_wflow_input_path.png  used on input line 2216.
+(pdftex.def)             Requested size: 344.005pt x 385.80185pt.
+ [52]
+Overfull \hbox (2.87152pt too wide) in paragraph at lines 2266--2266
+[]|\T1/txr/m/n/9 (-20) Col.| 
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 2268--2269
+[]|\T1/txr/m/n/9 (+20) ``grid_spec'', ``at-mos_4xdaily'', ``at-mos_static'',
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2270--2270
+[]|\T1/txr/m/n/9 (+20) output_freq_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2272--2272
+[]|\T1/txr/m/n/9 (+20) time_axis_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2273--2273
+[]|\T1/txr/m/n/9 (+20) time_axis_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2274--2274
+[]|\T1/txr/m/n/9 (+20) new_file_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2275--2275
+[]|\T1/txr/m/n/9 (+20) new_file_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2278--2278
+[]|\T1/txr/m/n/9 (+20) file_duration
+ []
+
+[53 <./Fv3LAM_wflow_input_path.png>]
+Overfull \hbox (4.27008pt too wide) in paragraph at lines 2292--2292
+[]|\T1/txr/m/n/9 (-20) Column| 
+ []
+
+[54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66]
+Overfull \hbox (1.2201pt too wide) in paragraph at lines 2878--2878
+[]|\T1/txr/m/n/9 (-20) Parameter| 
+ []
+
+
+Overfull \hbox (1.73645pt too wide) in paragraph at lines 2893--2893
+[]|$\OML/txmi/m/it/9 m\OT1/txr/m/n/9 (-20) 2\OML/txmi/m/it/9 =s\OT1/txr/m/n/9 (
+-20) 2$| 
+ []
+
+[67] [68]
+Overfull \hbox (0.55911pt too wide) in paragraph at lines 2966--2967
+[]\T1/txr/m/n/10.95 (-20) UFS FV3-Dycore doc-u-men-ta-tion ([][]$\T1/txtt/m/n/1
+0.95 https : / / noaa-[]emc . github . io / FV3 _ Dycore _ ufs-[]v1 .
+ []
+
+[69]
+Overfull \hbox (0.7858pt too wide) in paragraph at lines 3045--3045
+[]|\T1/txr/m/n/8 knob_ugwp_version| 
+ []
+
+
+Overfull \hbox (1.34581pt too wide) in paragraph at lines 3046--3046
+[]|\T1/txr/m/n/8 knob_ugwp_wvspec| 
+ []
+
+
+Overfull \hbox (1.78891pt too wide) in paragraph at lines 3046--3047
+[]|\T1/txr/m/n/8 1,32,32,32| 
+ []
+
+[70] [71]
+Overfull \hbox (1.4322pt too wide) in paragraph at lines 3136--3136
+[]|\T1/txr/m/n/8 adjust_dry_mass| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3154--3154
+[]|\T1/txr/m/n/8 Initialize the model us-ing the data in the ex-ter-nally spec-
+i-fied file in
+ []
+
+[72]
+Overfull \hbox (2.24019pt too wide) in paragraph at lines 3185--3185
+[]|\T1/txr/m/n/8 phys_hydrostatic| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3190--3190
+[]|\T1/txr/m/n/8 res_latlon_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3194--3194
+[]|\T1/txr/m/n/8 use_hydro_
+ []
+
+[73] [74]
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 3232--3232
+[]|\T1/txr/m/n/8 bl_mynn_edmf_mom| 
+ []
+
+[75] [76] [77] [78] [79] [80] [81]
+Underfull \hbox (badness 10000) in paragraph at lines 3606--3607
+
+ []
+
+[82] [83]
+Underfull \hbox (badness 5985) in paragraph at lines 3689--3689
+[]|\T1/txr/m/n/9 (+20) Parameter name
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3702--3702
+[]|\T1/txr/m/n/9 (+20) write_tasks_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3702--3702
+[]|\T1/txr/m/n/9 (+20) WRTCMP_write_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3705--3705
+[]|\T1/txr/m/n/9 (+20) OMP_NUM_
+ []
+
+
+Overfull \vbox (2.6441pt too high) has occurred while \output is active []
+
+
+[84]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3746--3746
+[]|\T1/txr/m/n/10 (+20) launch_FV3LAM_
+ []
+
+
+Overfull \hbox (1.9631pt too wide) in paragraph at lines 3747--3747
+[]|\T1/txr/m/n/10 (-20) log.generate_FV3LAM
+ []
+
+[85
+
+]
+<FV3LAM_wflow_flowchart.png, id=1878, 518.8986pt x 628.2672pt>
+File: FV3LAM_wflow_flowchart.png Graphic file (type png)
+<use FV3LAM_wflow_flowchart.png>
+Package pdftex.def Info: FV3LAM_wflow_flowchart.png  used on input line 3763.
+(pdftex.def)             Requested size: 301.00192pt x 364.45274pt.
+ [86 <./FV3LAM_wflow_flowchart.png>]
+Overfull \hbox (1.92625pt too wide) in paragraph at lines 3790--3790
+[]|\T1/txr/m/n/10 (-20) run_vx_pointstat| 
+ []
+
+[87]
+<FV3LAM_wflow_run_fcst.png, id=1905, 518.8986pt x 583.9416pt>
+File: FV3LAM_wflow_run_fcst.png Graphic file (type png)
+<use FV3LAM_wflow_run_fcst.png>
+Package pdftex.def Info: FV3LAM_wflow_run_fcst.png  used on input line 3806.
+(pdftex.def)             Requested size: 301.00192pt x 338.73982pt.
+ [88 <./FV3LAM_wflow_run_fcst.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3837--3838
+
+ []
+
+[89]
+Overfull \hbox (11.56963pt too wide) in paragraph at lines 3865--3866
+\T1/txr/m/n/10.95 (-20) ther `con-fig_defaults.sh' or in `con-fig.sh' is ig-nor
+ed. The same is true for `RUN_TASK_MAKE_OROG'
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3865--3866
+
+ []
+
+[90]
+Underfull \hbox (badness 10000) in paragraph at lines 3956--3957
+
+ []
+
+[91]
+Overfull \hbox (1.25572pt too wide) in paragraph at lines 3972--3973
+[]\T1/txr/m/n/10.95 (-20) This script will cre-ate (or ap-pend to if it al-read
+y ex-ists) a log file named `log.launch_FV3LAM_wflow'
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4010--4011
+
+ []
+
+[92]
+Underfull \hbox (badness 10000) in paragraph at lines 4070--4071
+
+ []
+
+[93]
+Underfull \hbox (badness 10000) in paragraph at lines 4090--4091
+
+ []
+
+
+Overfull \hbox (1.52599pt too wide) in paragraph at lines 4099--4099
+[]|\T1/txr/m/n/10 (-20) No.| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4107--4107
+[]|\T1/txr/m/n/10 (+20) FV3LAM_wflow.db
+ []
+
+
+Overfull \hbox (2.55232pt too wide) in paragraph at lines 4108--4108
+[]|\T1/txr/m/n/10 (-20) log.launch_FV3LAM_wflow| 
+ []
+
+[94]
+Underfull \hbox (badness 10000) in paragraph at lines 4115--4116
+
+ []
+
+[95]
+Underfull \hbox (badness 10000) in paragraph at lines 4193--4194
+
+ []
+
+[96] [97] [98]
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+) [99]
+[100]
+Underfull \hbox (badness 10000) in paragraph at lines 4476--4477
+
+ []
+
+[101]
+Overfull \hbox (1.25572pt too wide) in paragraph at lines 4493--4494
+[]\T1/txr/m/n/10.95 (-20) This script will cre-ate (or ap-pend to if it al-read
+y ex-ists) a log file named `log.launch_FV3LAM_wflow'
+ []
+
+[102]
+Underfull \hbox (badness 10000) in paragraph at lines 4608--4609
+
+ []
+
+[103] [104]
+Underfull \hbox (badness 10000) in paragraph at lines 4732--4733
+
+ []
+
+[105] [106]
+<FV3LAM_wflow_output_files.png, id=2388, 495.7722pt x 668.2566pt>
+File: FV3LAM_wflow_output_files.png Graphic file (type png)
+<use FV3LAM_wflow_output_files.png>
+Package pdftex.def Info: FV3LAM_wflow_output_files.png  used on input line 4786
+.
+(pdftex.def)             Requested size: 288.10231pt x 388.34366pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4811--4812
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4824--4825
+
+ []
+
+[107] [108 <./FV3LAM_wflow_output_files.png>] [109]
+Chapter 4.
+
+Overfull \hbox (4.38112pt too wide) in paragraph at lines 4939--4939
+[]|\T1/txr/m/n/9 (-20) No.| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4941--4941
+[]|\T1/txr/m/n/9 (+20) grid_RRFS_CONUS_25km_ics_FV3GFS_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4942--4942
+[]|\T1/txr/m/n/9 (+20) grid_RRFS_CONUS_3km_ics_FV3GFS_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4943--4943
+[]|\T1/txr/m/n/9 (+20) grid_RRFS_CONUS_3km_ics_HRRR_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4944--4944
+[]|\T1/txr/m/n/9 (+20) nco_grid_RRFS_CONUS_3km_ics_
+ []
+
+[110
+
+]
+Overfull \hbox (3.63876pt too wide) in paragraph at lines 4971--4971
+[]|\T1/txr/m/n/10 (-20) WCOSS_dell_p3| 
+ []
+
+
+Overfull \hbox (3.63876pt too wide) in paragraph at lines 5011--5011
+[]|\T1/txr/m/n/10 (-20) WCOSS_dell_p3| 
+ []
+
+[111]
+Overfull \hbox (3.63876pt too wide) in paragraph at lines 5028--5028
+[]|\T1/txr/m/n/10 (-20) WCOSS_dell_p3| 
+ []
+
+
+Overfull \hbox (3.12076pt too wide) in paragraph at lines 5047--5049
+[]\T1/txr/m/n/10.95 (-20) Create or mod-ify the list file `ex-pts_fie' (for ex-
+am-ple, `my_expts.txt') in the `re-gional_workflow
+ []
+
+[112]
+Overfull \hbox (1.10316pt too wide) in paragraph at lines 5072--5073
+[]|\T1/txr/m/n/10 (-20) Default| 
+ []
+
+
+Overfull \hbox (1.9888pt too wide) in paragraph at lines 5077--5077
+[]|\T1/txr/m/n/10 (-20) use_cron_to_relaunch| 
+ []
+
+
+Overfull \hbox (1.02179pt too wide) in paragraph at lines 5077--5078
+[]|\T1/txr/m/n/10 (-20) FALSE| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5078--5078
+[]|\T1/txr/m/n/10 (-6) cron_relaunch_intvl_
+ []
+
+[113]
+Chapter 5.
+[114
+
+]
+<FV3LAM_wflow_make_grid.png, id=2497, 518.93875pt x 616.3025pt>
+File: FV3LAM_wflow_make_grid.png Graphic file (type png)
+<use FV3LAM_wflow_make_grid.png>
+Package pdftex.def Info: FV3LAM_wflow_make_grid.png  used on input line 5162.
+(pdftex.def)             Requested size: 258.00539pt x 306.42955pt.
+ [115 <./FV3LAM_wflow_make_grid.png>]
+Overfull \vbox (2.92851pt too high) has occurred while \output is active []
+
+
+[116]
+Overfull \hbox (1.0181pt too wide) in paragraph at lines 5223--5224
+[]\T1/txr/m/n/10.95 (-20) The source code can be found in `$\OMS/txsy/m/n/10.95
+ ^^X$\T1/txr/m/n/10.95 (-20) /UFS_UTILS/sorc/grid_tolls.fd/regional_esg_grid.fd
+'. 
+ []
+
+
+Overfull \hbox (2.64162pt too wide) in paragraph at lines 5234--5234
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.57776pt too wide) in paragraph at lines 5243--5243
+[]|\T1/txr/m/n/10 (-20) ESGgrid_WIDE_HALO_WIDTH| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5249--5249
+[]|\T1/txr/m/n/10 (+20) neg_nx_of_dom_with_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5250--5250
+[]|\T1/txr/m/n/10 (+20) neg_ny_of_dom_with_
+ []
+
+[117]
+Underfull \hbox (badness 10000) in paragraph at lines 5281--5281
+[]|\T1/txr/m/n/10 (+20) Parameter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5298--5298
+[]|\T1/txr/m/n/10 (+20) great_circle_
+ []
+
+[118]
+Overfull \hbox (2.64162pt too wide) in paragraph at lines 5312--5312
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5320--5320
+[]|\T1/txr/m/n/10 (+20) GFDLgrid_ISTART_OF_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5322--5322
+[]|\T1/txr/m/n/10 (+20) GFDLgrid_JSTART_OF_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5323--5323
+[]|\T1/txr/m/n/10 (-11) GFDLgrid_JEND_OF_RGNL_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5324--5324
+[]|\T1/txr/m/n/10 (+20) GFDLgrid_USE_GFDLgrid_
+ []
+
+[119]
+Underfull \hbox (badness 10000) in paragraph at lines 5353--5354
+
+ []
+
+[120]
+
+LaTeX Warning: Reference `sec:dev_sar_grid' on page 121 undefined on input line
+ 5379.
+
+[121]
+<ECoast_JCH_esg.png, id=2572, 895.345pt x 718.685pt>
+File: ECoast_JCH_esg.png Graphic file (type png)
+<use ECoast_JCH_esg.png>
+Package pdftex.def Info: ECoast_JCH_esg.png  used on input line 5437.
+(pdftex.def)             Requested size: 301.00192pt x 241.61906pt.
+ [122 <./ECoast_JCH_esg.png>]
+<ECoast_JCH_gfdl.png, id=2581, 897.3525pt x 717.68124pt>
+File: ECoast_JCH_gfdl.png Graphic file (type png)
+<use ECoast_JCH_gfdl.png>
+Package pdftex.def Info: ECoast_JCH_gfdl.png  used on input line 5476.
+(pdftex.def)             Requested size: 296.70424pt x 237.29547pt.
+<ECoast_JCH_rll.png, id=2582, 895.345pt x 716.6775pt>
+File: ECoast_JCH_rll.png Graphic file (type png)
+<use ECoast_JCH_rll.png>
+Package pdftex.def Info: ECoast_JCH_rll.png  used on input line 5485.
+(pdftex.def)             Requested size: 296.70424pt x 237.49945pt.
+
+Overfull \hbox (3.06989pt too wide) in paragraph at lines 5495--5495
+[]|\T1/txr/m/n/10 (-20) No.| 
+ []
+
+[123]
+
+LaTeX Warning: Text page 124 contains only floats.
+
+
+Overfull \vbox (2.51834pt too high) has occurred while \output is active []
+
+
+[124 <./ECoast_JCH_gfdl.png> <./ECoast_JCH_rll.png>] [125] [126]
+<fv3_grid_only_ECOAST_esg_C3357_dxy.png, id=2706, 404.4711pt x 281.1303pt>
+File: fv3_grid_only_ECOAST_esg_C3357_dxy.png Graphic file (type png)
+<use fv3_grid_only_ECOAST_esg_C3357_dxy.png>
+Package pdftex.def Info: fv3_grid_only_ECOAST_esg_C3357_dxy.png  used on input 
+line 5684.
+(pdftex.def)             Requested size: 210.70462pt x 146.45026pt.
+<fv3_grid_only_ECOAST_gfdl_C768_dxy.png, id=2707, 404.4711pt x 279.444pt>
+File: fv3_grid_only_ECOAST_gfdl_C768_dxy.png Graphic file (type png)
+<use fv3_grid_only_ECOAST_gfdl_C768_dxy.png>
+Package pdftex.def Info: fv3_grid_only_ECOAST_gfdl_C768_dxy.png  used on input 
+line 5685.
+(pdftex.def)             Requested size: 210.70462pt x 145.57181pt.
+ [127]
+<FV3LAM_wflow_make_orog.png, id=2738, 518.93875pt x 582.175pt>
+File: FV3LAM_wflow_make_orog.png Graphic file (type png)
+<use FV3LAM_wflow_make_orog.png>
+Package pdftex.def Info: FV3LAM_wflow_make_orog.png  used on input line 5719.
+(pdftex.def)             Requested size: 258.00539pt x 289.46115pt.
+ [128 <./fv3_grid_only_ECOAST_esg_C3357_dxy.png> <./fv3_grid_only_ECOAST_gfdl_C
+768_dxy.png>]
+Overfull \hbox (4.32721pt too wide) in paragraph at lines 5775--5775
+[]|\T1/txr/m/n/9 (-20) input_maximum_snow_albedo_file| 
+ []
+
+
+Overfull \hbox (2.3988pt too wide) in alignment at lines 5768--5791
+ [] [] [] 
+ []
+
+
+Overfull \hbox (2.3988pt too wide) has occurred while \output is active
+ [] [] [] 
+ []
+
+[129 <./FV3LAM_wflow_make_orog.png>]
+Overfull \hbox (2.3988pt too wide) has occurred while \output is active
+ [] [] [] 
+ []
+
+
+Overfull \hbox (1.85959pt too wide) in paragraph at lines 5840--5840
+[]|\T1/txr/m/n/9 (-20) SFC_CLIMO_INPUT_DIR| 
+ []
+
+[130]
+Overfull \hbox (1.85959pt too wide) in paragraph at lines 5857--5857
+[]|\T1/txr/m/n/9 (-20) SFC_CLIMO_INPUT_DIR| 
+ []
+
+
+Overfull \hbox (2.34721pt too wide) in paragraph at lines 5871--5871
+[]|\T1/txr/m/n/10 (-20) No.| 
+ []
+
+[131]
+Chapter 6.
+[132
+
+]
+<Fv3regional_pre1.png, id=2793, 500.5902pt x 701.5008pt>
+File: Fv3regional_pre1.png Graphic file (type png)
+<use Fv3regional_pre1.png>
+Package pdftex.def Info: Fv3regional_pre1.png  used on input line 5929.
+(pdftex.def)             Requested size: 292.4pt x 409.77153pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5940--5941
+
+ []
+
+[133 <./Fv3regional_pre1.png>] [134] [135] [136] [137] [138] [139] [140]
+Overfull \hbox (1.25046pt too wide) in paragraph at lines 6342--6342
+[]|\T1/txr/m/n/10 (-20) substrate_temperature.2.6x1.5.nc| 
+ []
+
+[141] [142]
+Chapter 7.
+[143
+
+] [144] [145] [146]
+Overfull \hbox (0.72713pt too wide) in paragraph at lines 6579--6580
+[][][]$\T1/txtt/m/n/10.95 https : / / github . com / NOAA-[]EMC / UFS _ UTILS /
+ blob / release / public-[]v1 / docs /
+ []
+
+
+Overfull \hbox (3.17407pt too wide) in paragraph at lines 6594--6594
+[]|\T1/txr/m/n/8 No.| 
+ []
+
+
+Overfull \hbox (1.11433pt too wide) in paragraph at lines 6600--6600
+[]|\T1/txr/m/n/8 vcoord_files_target_grid| 
+ []
+
+
+Overfull \hbox (1.89919pt too wide) in alignment at lines 6591--6615
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.89919pt too wide) in alignment at lines 6615--6632
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.89919pt too wide) has occurred while \output is active
+ [] [] [] [] 
+ []
+
+[147]
+Overfull \hbox (1.89919pt too wide) has occurred while \output is active
+ [] [] [] [] 
+ []
+
+[148]
+Underfull \hbox (badness 10000) in paragraph at lines 6674--6675
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6712--6713
+
+ []
+
+[149] [150] [151]
+Underfull \hbox (badness 10000) in paragraph at lines 6868--6869
+
+ []
+
+[152] [153] [154]
+Chapter 8.
+[155
+
+]
+Overfull \hbox (1.45467pt too wide) in paragraph at lines 7061--7061
+[]|\T1/txr/m/n/10 (-20) pressureFromGroundLayer| 
+ []
+
+
+Overfull \hbox (1.45467pt too wide) in paragraph at lines 7062--7062
+[]|\T1/txr/m/n/10 (-20) pressureFromGroundLayer| 
+ []
+
+
+Overfull \hbox (1.45467pt too wide) in paragraph at lines 7065--7065
+[]|\T1/txr/m/n/10 (-20) pressureFromGroundLayer| 
+ []
+
+
+Overfull \hbox (1.45467pt too wide) in paragraph at lines 7073--7073
+[]|\T1/txr/m/n/10 (-20) pressureFromGroundLayer| 
+ []
+
+
+Overfull \hbox (1.45467pt too wide) in paragraph at lines 7077--7077
+[]|\T1/txr/m/n/10 (-20) pressureFromGroundLayer| 
+ []
+
+[156]
+Overfull \hbox (1.45467pt too wide) in paragraph at lines 7095--7095
+[]|\T1/txr/m/n/10 (-20) pressureFromGroundLayer| 
+ []
+
+
+Overfull \hbox (1.45467pt too wide) in paragraph at lines 7100--7100
+[]|\T1/txr/m/n/10 (-20) pressureFromGroundLayer| 
+ []
+
+
+Overfull \hbox (1.45467pt too wide) in paragraph at lines 7103--7103
+[]|\T1/txr/m/n/10 (-20) pressureFromGroundLayer| 
+ []
+
+
+Overfull \hbox (1.45467pt too wide) in paragraph at lines 7107--7107
+[]|\T1/txr/m/n/10 (-20) pressureFromGroundLayer| 
+ []
+
+
+Overfull \hbox (1.45467pt too wide) in paragraph at lines 7109--7109
+[]|\T1/txr/m/n/10 (-20) pressureFromGroundLayer| 
+ []
+
+[157] [158] [159] [160] [161]
+Chapter 9.
+[162
+
+] [163] [164]
+Chapter 10.
+[165
+
+]
+<fv3_struct_setservice.png, id=3151, 695.2374pt x 534.798pt>
+File: fv3_struct_setservice.png Graphic file (type png)
+<use fv3_struct_setservice.png>
+Package pdftex.def Info: fv3_struct_setservice.png  used on input line 7529.
+(pdftex.def)             Requested size: 313.90154pt x 241.46475pt.
+<fv3_struct_atmosmodelinit.png, id=3152, 697.1646pt x 533.8344pt>
+File: fv3_struct_atmosmodelinit.png Graphic file (type png)
+<use fv3_struct_atmosmodelinit.png>
+Package pdftex.def Info: fv3_struct_atmosmodelinit.png  used on input line 7535
+.
+(pdftex.def)             Requested size: 313.90154pt x 240.36172pt.
+<fv3_struct_bundlesetup.png, id=3153, 697.1646pt x 532.8708pt>
+File: fv3_struct_bundlesetup.png Graphic file (type png)
+<use fv3_struct_bundlesetup.png>
+Package pdftex.def Info: fv3_struct_bundlesetup.png  used on input line 7543.
+(pdftex.def)             Requested size: 313.90154pt x 239.92786pt.
+<fv3_struct_atmosphereinit.png, id=3154, 696.201pt x 533.8344pt>
+File: fv3_struct_atmosphereinit.png Graphic file (type png)
+<use fv3_struct_atmosphereinit.png>
+Package pdftex.def Info: fv3_struct_atmosphereinit.png  used on input line 7549
+.
+(pdftex.def)             Requested size: 313.90154pt x 240.6957pt.
+<fv3_struct_atmosphere_nggps_diag.png, id=3155, 696.201pt x 536.7252pt>
+File: fv3_struct_atmosphere_nggps_diag.png Graphic file (type png)
+<use fv3_struct_atmosphere_nggps_diag.png>
+Package pdftex.def Info: fv3_struct_atmosphere_nggps_diag.png  used on input li
+ne 7557.
+(pdftex.def)             Requested size: 313.90154pt x 241.99911pt.
+<fv3_struct_restart_read.png, id=3156, 697.1646pt x 537.6888pt>
+File: fv3_struct_restart_read.png Graphic file (type png)
+<use fv3_struct_restart_read.png>
+Package pdftex.def Info: fv3_struct_restart_read.png  used on input line 7563.
+(pdftex.def)             Requested size: 313.90154pt x 242.0972pt.
+<fv3_struct_fvrestart.png, id=3157, 699.5736pt x 533.8344pt>
+File: fv3_struct_fvrestart.png Graphic file (type png)
+<use fv3_struct_fvrestart.png>
+Package pdftex.def Info: fv3_struct_fvrestart.png  used on input line 7571.
+(pdftex.def)             Requested size: 313.90154pt x 239.53087pt.
+<fv3_struct_fvdiaginit.png, id=3158, 696.201pt x 533.8344pt>
+File: fv3_struct_fvdiaginit.png Graphic file (type png)
+<use fv3_struct_fvdiaginit.png>
+Package pdftex.def Info: fv3_struct_fvdiaginit.png  used on input line 7577.
+(pdftex.def)             Requested size: 313.90154pt x 240.6957pt.
+ [166]
+
+LaTeX Warning: Text page 167 contains only floats.
+
+
+Overfull \vbox (3.39534pt too high) has occurred while \output is active []
+
+
+[167 <./fv3_struct_setservice.png> <./fv3_struct_atmosmodelinit.png>]
+
+LaTeX Warning: Text page 168 contains only floats.
+
+
+Overfull \vbox (2.19241pt too high) has occurred while \output is active []
+
+
+[168 <./fv3_struct_bundlesetup.png> <./fv3_struct_atmosphereinit.png>]
+
+LaTeX Warning: Text page 169 contains only floats.
+
+
+Overfull \vbox (5.66518pt too high) has occurred while \output is active []
+
+
+[169 <./fv3_struct_atmosphere_nggps_diag.png> <./fv3_struct_restart_read.png>]
+
+LaTeX Warning: Text page 170 contains only floats.
+
+
+Overfull \vbox (1.79543pt too high) has occurred while \output is active []
+
+
+[170 <./fv3_struct_fvrestart.png> <./fv3_struct_fvdiaginit.png>] [171] [172]
+[173] [174] [175]
+Underfull \hbox (badness 10000) in paragraph at lines 7890--7891
+
+ []
+
+[176] [177] [178]
+<regional_bc_update.png, id=3342, 623.32875pt x 501.875pt>
+File: regional_bc_update.png Graphic file (type png)
+<use regional_bc_update.png>
+Package pdftex.def Info: regional_bc_update.png  used on input line 8049.
+(pdftex.def)             Requested size: 215.0023pt x 173.10876pt.
+<regional_bc_tiles.png, id=3343, 539.01375pt x 507.8975pt>
+File: regional_bc_tiles.png Graphic file (type png)
+<use regional_bc_tiles.png>
+Package pdftex.def Info: regional_bc_tiles.png  used on input line 8050.
+(pdftex.def)             Requested size: 184.89883pt x 174.2251pt.
+ [179 <./regional_bc_update.png> <./regional_bc_tiles.png>]
+[180] [181] [182]
+
+LaTeX Warning: Reference `subsec:input_domain_nml' on page 183 undefined on inp
+ut line 8206.
+
+[183] [184] [185] [186]
+Overfull \hbox (11.11462pt too wide) in paragraph at lines 8405--8405
+[]|\T1/txtt/m/n/10.95 (external_ic.F90_NAM_lyrs)| 
+ []
+
+[187]
+Chapter 11.
+[188
+
+]
+<github_flow.png, id=3478, 695.59875pt x 484.81125pt>
+File: github_flow.png Graphic file (type png)
+<use github_flow.png>
+Package pdftex.def Info: github_flow.png  used on input line 8451.
+(pdftex.def)             Requested size: 344.005pt x 239.75667pt.
+ [189 <./github_flow.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 8510--8511
+
+ []
+
+[190] [191] [192] [193]
+Underfull \hbox (badness 10000) in paragraph at lines 8671--8672
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8683--8684
+
+ []
+
+[194]
+Underfull \hbox (badness 10000) in paragraph at lines 8711--8712
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8727--8728
+
+ []
+
+[195] [196]
+Underfull \hbox (badness 10000) in paragraph at lines 8859--8860
+
+ []
+
+[197]
+Underfull \hbox (badness 10000) in paragraph at lines 8879--8880
+
+ []
+
+[198]
+Underfull \hbox (badness 10000) in paragraph at lines 8958--8959
+
+ []
+
+[199]
+Underfull \hbox (badness 10000) in paragraph at lines 8988--8989
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9004--9005
+
+ []
+
+[200]
+Underfull \hbox (badness 10000) in paragraph at lines 9047--9048
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9068--9069
+
+ []
+
+[201] [202] [203] [204] [205] [206] [207] [208] [209] [210] [211] [212]
+Chapter 12.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9731--9732
+
+ []
+
+[213
+
+]
+<post_fv3grid_02.png, id=4038, 906.38625pt x 833.1125pt>
+File: post_fv3grid_02.png Graphic file (type png)
+<use post_fv3grid_02.png>
+Package pdftex.def Info: post_fv3grid_02.png  used on input line 9779.
+(pdftex.def)             Requested size: 258.00539pt x 237.14714pt.
+ [214 <./post_fv3grid_02.png>]
+<post_fv3grid_04.png, id=4046, 905.3825pt x 825.0825pt>
+File: post_fv3grid_04.png Graphic file (type png)
+<use post_fv3grid_04.png>
+Package pdftex.def Info: post_fv3grid_04.png  used on input line 9814.
+(pdftex.def)             Requested size: 258.00539pt x 235.11319pt.
+ [215 <./post_fv3grid_04.png>]
+<post_fv3grid_rll.png, id=4054, 899.36pt x 776.9025pt>
+File: post_fv3grid_rll.png Graphic file (type png)
+<use post_fv3grid_rll.png>
+Package pdftex.def Info: post_fv3grid_rll.png  used on input line 9864.
+(pdftex.def)             Requested size: 258.00539pt x 222.87761pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9878.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 9878.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 9878.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 9878.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 9878.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\kappa' on input line 9878.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 9878.
+
+<post_fv3grid_esg1.png, id=4055, 896.34875pt x 774.895pt>
+File: post_fv3grid_esg1.png Graphic file (type png)
+<use post_fv3grid_esg1.png>
+Package pdftex.def Info: post_fv3grid_esg1.png  used on input line 9896.
+(pdftex.def)             Requested size: 258.00539pt x 223.04662pt.
+<post_fv3grid_esg2.png, id=4056, 899.36pt x 771.88374pt>
+File: post_fv3grid_esg2.png Graphic file (type png)
+<use post_fv3grid_esg2.png>
+Package pdftex.def Info: post_fv3grid_esg2.png  used on input line 9904.
+(pdftex.def)             Requested size: 258.00539pt x 221.43784pt.
+[216] [217 <./post_fv3grid_rll.png> <./post_fv3grid_esg1.png>]
+<fv3_pre_grid_PR_C768_bndr_110m.png, id=4082, 334.6101pt x 294.8616pt>
+File: fv3_pre_grid_PR_C768_bndr_110m.png Graphic file (type png)
+<use fv3_pre_grid_PR_C768_bndr_110m.png>
+Package pdftex.def Info: fv3_pre_grid_PR_C768_bndr_110m.png  used on input line
+ 9939.
+(pdftex.def)             Requested size: 171.99922pt x 151.5742pt.
+<fv3_pre_grid_PR_C768_bndr_50m.png, id=4083, 334.6101pt x 294.8616pt>
+File: fv3_pre_grid_PR_C768_bndr_50m.png Graphic file (type png)
+<use fv3_pre_grid_PR_C768_bndr_50m.png>
+Package pdftex.def Info: fv3_pre_grid_PR_C768_bndr_50m.png  used on input line 
+9940.
+(pdftex.def)             Requested size: 171.99922pt x 151.5742pt.
+ [218 <./post_fv3grid_esg2.png>] [219 <./fv3_pre_grid_PR_C768_bndr_110m.png> <.
+/fv3_pre_grid_PR_C768_bndr_50m.png>]
+<fv3_out_prs_HRRR_esg_C401_refc_unknown_L001.png, id=4115, 402.0621pt x 206.210
+4pt>
+File: fv3_out_prs_HRRR_esg_C401_refc_unknown_L001.png Graphic file (type png)
+<use fv3_out_prs_HRRR_esg_C401_refc_unknown_L001.png>
+Package pdftex.def Info: fv3_out_prs_HRRR_esg_C401_refc_unknown_L001.png  used 
+on input line 10027.
+(pdftex.def)             Requested size: 301.00192pt x 154.38681pt.
+ [220 <./fv3_out_prs_HRRR_esg_C401_refc_unknown_L001.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 10058--10059
+
+ []
+
+[221] [222]
+Overfull \hbox (1.01093pt too wide) in paragraph at lines 10169--10169
+[]|\T1/txr/m/n/10 (-20) plot_fv3lam_his2d_bndr.py| 
+ []
+
+
+Overfull \hbox (2.09015pt too wide) in paragraph at lines 10176--10176
+[]|\T1/txr/m/n/10 (-20) plot_fv3lam_ani_comref.py| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10190--10191
+
+ []
+
+[223] [224]
+<fv3_grid_CONUS_C96.png, id=4214, 372.9132pt x 287.1528pt>
+File: fv3_grid_CONUS_C96.png Graphic file (type png)
+<use fv3_grid_CONUS_C96.png>
+Package pdftex.def Info: fv3_grid_CONUS_C96.png  used on input line 10268.
+(pdftex.def)             Requested size: 210.70462pt x 162.25038pt.
+<fv3_grid_CONUS_C96_bndr.png, id=4215, 372.9132pt x 287.1528pt>
+File: fv3_grid_CONUS_C96_bndr.png Graphic file (type png)
+<use fv3_grid_CONUS_C96_bndr.png>
+Package pdftex.def Info: fv3_grid_CONUS_C96_bndr.png  used on input line 10269.
+
+(pdftex.def)             Requested size: 210.70462pt x 162.25038pt.
+<fv3_grid_CONUS_C96_dxy.png, id=4216, 409.7709pt x 274.626pt>
+File: fv3_grid_CONUS_C96_dxy.png Graphic file (type png)
+<use fv3_grid_CONUS_C96_dxy.png>
+Package pdftex.def Info: fv3_grid_CONUS_C96_dxy.png  used on input line 10278.
+(pdftex.def)             Requested size: 279.50037pt x 187.32567pt.
+ [225]
+<fv3_orog_CONUS_C96_orog_raw.png, id=4232, 412.1799pt x 275.1078pt>
+File: fv3_orog_CONUS_C96_orog_raw.png Graphic file (type png)
+<use fv3_orog_CONUS_C96_orog_raw.png>
+Package pdftex.def Info: fv3_orog_CONUS_C96_orog_raw.png  used on input line 10
+302.
+(pdftex.def)             Requested size: 206.40038pt x 137.75925pt.
+<fv3_orog_CONUS_C96_orog_filt.png, id=4233, 412.1799pt x 275.5896pt>
+File: fv3_orog_CONUS_C96_orog_filt.png Graphic file (type png)
+<use fv3_orog_CONUS_C96_orog_filt.png>
+Package pdftex.def Info: fv3_orog_CONUS_C96_orog_filt.png  used on input line 1
+0303.
+(pdftex.def)             Requested size: 206.40038pt x 138.0005pt.
+<fv3_orog_CONUS_C96_slmsk.png, id=4234, 397.0032pt x 278.7213pt>
+File: fv3_orog_CONUS_C96_slmsk.png Graphic file (type png)
+<use fv3_orog_CONUS_C96_slmsk.png>
+Package pdftex.def Info: fv3_orog_CONUS_C96_slmsk.png  used on input line 10313
+.
+(pdftex.def)             Requested size: 206.40038pt x 144.90613pt.
+<fv3_orog_CONUS_C96_land_frac.png, id=4235, 404.4711pt x 278.7213pt>
+File: fv3_orog_CONUS_C96_land_frac.png Graphic file (type png)
+<use fv3_orog_CONUS_C96_land_frac.png>
+Package pdftex.def Info: fv3_orog_CONUS_C96_land_frac.png  used on input line 1
+0314.
+(pdftex.def)             Requested size: 206.40038pt x 142.23103pt.
+ [226 <./fv3_grid_CONUS_C96.png> <./fv3_grid_CONUS_C96_bndr.png> <./fv3_grid_CO
+NUS_C96_dxy.png>] [227 <./fv3_orog_CONUS_C96_orog_raw.png> <./fv3_orog_CONUS_C9
+6_orog_filt.png> <./fv3_orog_CONUS_C96_slmsk.png> <./fv3_orog_CONUS_C96_land_fr
+ac.png>] [228]
+<fv3_static_CONUS_C96_maximum_snow_albedo.png, id=4285, 252.7041pt x 298.9569pt
+>
+File: fv3_static_CONUS_C96_maximum_snow_albedo.png Graphic file (type png)
+<use fv3_static_CONUS_C96_maximum_snow_albedo.png>
+Package pdftex.def Info: fv3_static_CONUS_C96_maximum_snow_albedo.png  used on 
+input line 10410.
+(pdftex.def)             Requested size: 197.80501pt x 234.00653pt.
+<fv3_static_CONUS_C96_substrate_temperature.png, id=4286, 266.1945pt x 298.9569
+pt>
+File: fv3_static_CONUS_C96_substrate_temperature.png Graphic file (type png)
+<use fv3_static_CONUS_C96_substrate_temperature.png>
+Package pdftex.def Info: fv3_static_CONUS_C96_substrate_temperature.png  used o
+n input line 10411.
+(pdftex.def)             Requested size: 206.40038pt x 231.80779pt.
+ [229 <./fv3_static_CONUS_C96_maximum_snow_albedo.png> <./fv3_static_CONUS_C96_
+substrate_temperature.png>] [230]
+Overfull \hbox (3.83717pt too wide) in paragraph at lines 10482--10482
+[]|\T1/txr/m/n/10 (-20) out_fname_base| 
+ []
+
+<fv3_fixam_RTGSST_m07.png, id=4315, 407.121pt x 199.7061pt>
+File: fv3_fixam_RTGSST_m07.png Graphic file (type png)
+<use fv3_fixam_RTGSST_m07.png>
+Package pdftex.def Info: fv3_fixam_RTGSST_m07.png  used on input line 10493.
+(pdftex.def)             Requested size: 258.00539pt x 126.56818pt.
+<fv3_fixam_soilmgldas_m03_L010.png, id=4316, 409.7709pt x 200.1879pt>
+File: fv3_fixam_soilmgldas_m03_L010.png Graphic file (type png)
+<use fv3_fixam_soilmgldas_m03_L010.png>
+Package pdftex.def Info: fv3_fixam_soilmgldas_m03_L010.png  used on input line 
+10494.
+(pdftex.def)             Requested size: 258.00539pt x 126.04877pt.
+[231 <./fv3_fixam_RTGSST_m07.png> <./fv3_fixam_soilmgldas_m03_L010.png>]
+[232]
+<fv3_icbc_CONUS_C96_t_L001_t000_B10.png, id=4340, 194.6472pt x 190.311pt>
+File: fv3_icbc_CONUS_C96_t_L001_t000_B10.png Graphic file (type png)
+<use fv3_icbc_CONUS_C96_t_L001_t000_B10.png>
+Package pdftex.def Info: fv3_icbc_CONUS_C96_t_L001_t000_B10.png  used on input 
+line 10565.
+(pdftex.def)             Requested size: 279.50037pt x 273.3042pt.
+<fv3_icbc_CONUS_C96_t_L001_gfs.png, id=4341, 245.718pt x 198.9834pt>
+File: fv3_icbc_CONUS_C96_t_L001_gfs.png Graphic file (type png)
+<use fv3_icbc_CONUS_C96_t_L001_gfs.png>
+Package pdftex.def Info: fv3_icbc_CONUS_C96_t_L001_gfs.png  used on input line 
+10566.
+(pdftex.def)             Requested size: 301.00192pt x 243.77956pt.
+ [233] [234 <./fv3_icbc_CONUS_C96_t_L001_t000_B10.png> <./fv3_icbc_CONUS_C96_t_
+L001_gfs.png>]
+<fv3_isfc_CONUS_C96_tsea.png, id=4355, 407.121pt x 274.8669pt>
+File: fv3_isfc_CONUS_C96_tsea.png Graphic file (type png)
+<use fv3_isfc_CONUS_C96_tsea.png>
+Package pdftex.def Info: fv3_isfc_CONUS_C96_tsea.png  used on input line 10627.
+
+(pdftex.def)             Requested size: 206.40038pt x 139.354pt.
+<fv3_isfc_CONUS_C96_zorl.png, id=4356, 407.121pt x 279.6849pt>
+File: fv3_isfc_CONUS_C96_zorl.png Graphic file (type png)
+<use fv3_isfc_CONUS_C96_zorl.png>
+Package pdftex.def Info: fv3_isfc_CONUS_C96_zorl.png  used on input line 10628.
+
+(pdftex.def)             Requested size: 206.40038pt x 141.79668pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 10640.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 10640.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 10640.
+
+[235
+
+] [236 <./fv3_isfc_CONUS_C96_tsea.png> <./fv3_isfc_CONUS_C96_zorl.png>]
+<fv3_co2his_m12.png, id=4385, 407.121pt x 200.1879pt>
+File: fv3_co2his_m12.png Graphic file (type png)
+<use fv3_co2his_m12.png>
+Package pdftex.def Info: fv3_co2his_m12.png  used on input line 10688.
+(pdftex.def)             Requested size: 215.0023pt x 105.72029pt.
+
+[237 <./fv3_co2his_m12.png>]
+<fv3_out_grdspec_BRZ_C768.png, id=4401, 258.4857pt x 294.1389pt>
+File: fv3_out_grdspec_BRZ_C768.png Graphic file (type png)
+<use fv3_out_grdspec_BRZ_C768.png>
+Package pdftex.def Info: fv3_out_grdspec_BRZ_C768.png  used on input line 10752
+.
+(pdftex.def)             Requested size: 193.50076pt x 220.1907pt.
+ [238 <./fv3_out_grdspec_BRZ_C768.png>]
+<fv3_out_atmfix_BRZ_C768_pk.png, id=4411, 219.219pt x 217.0509pt>
+File: fv3_out_atmfix_BRZ_C768_pk.png Graphic file (type png)
+<use fv3_out_atmfix_BRZ_C768_pk.png>
+Package pdftex.def Info: fv3_out_atmfix_BRZ_C768_pk.png  used on input line 108
+16.
+(pdftex.def)             Requested size: 206.40038pt x 204.37231pt.
+<fv3_out_atmfix_BRZ_C768_bk.png, id=4412, 209.8239pt x 217.0509pt>
+File: fv3_out_atmfix_BRZ_C768_bk.png Graphic file (type png)
+<use fv3_out_atmfix_BRZ_C768_bk.png>
+Package pdftex.def Info: fv3_out_atmfix_BRZ_C768_bk.png  used on input line 108
+17.
+(pdftex.def)             Requested size: 202.10269pt x 209.07193pt.
+<fv3_out_atmfix_BRZ_C768_zsurf.png, id=4413, 345.6915pt x 298.716pt>
+File: fv3_out_atmfix_BRZ_C768_zsurf.png Graphic file (type png)
+<use fv3_out_atmfix_BRZ_C768_zsurf.png>
+Package pdftex.def Info: fv3_out_atmfix_BRZ_C768_zsurf.png  used on input line 
+10825.
+(pdftex.def)             Requested size: 258.00539pt x 222.94707pt.
+ [239]
+[240 <./fv3_out_atmfix_BRZ_C768_pk.png> <./fv3_out_atmfix_BRZ_C768_bk.png> <./f
+v3_out_atmfix_BRZ_C768_zsurf.png>]
+<fv3_out_his2d_HRRR_esg_C768_tmpsfc_domain.png, id=4440, 253.6677pt x 193.4427p
+t>
+File: fv3_out_his2d_HRRR_esg_C768_tmpsfc_domain.png Graphic file (type png)
+<use fv3_out_his2d_HRRR_esg_C768_tmpsfc_domain.png>
+Package pdftex.def Info: fv3_out_his2d_HRRR_esg_C768_tmpsfc_domain.png  used on
+ input line 10889.
+(pdftex.def)             Requested size: 258.00539pt x 196.75696pt.
+ [241]
+<fv3_out_his2d_HRRR_esg_C768_tmpsfc_bndr.png, id=4453, 195.3699pt x 190.311pt>
+File: fv3_out_his2d_HRRR_esg_C768_tmpsfc_bndr.png Graphic file (type png)
+<use fv3_out_his2d_HRRR_esg_C768_tmpsfc_bndr.png>
+Package pdftex.def Info: fv3_out_his2d_HRRR_esg_C768_tmpsfc_bndr.png  used on i
+nput line 10896.
+(pdftex.def)             Requested size: 258.00539pt x 251.35646pt.
+ [242 <./fv3_out_his2d_HRRR_esg_C768_tmpsfc_domain.png> <./fv3_out_his2d_HRRR_e
+sg_C768_tmpsfc_bndr.png>]
+<fv3_out_dyn_CONUS_C96_ustm_f001.png, id=4464, 408.8073pt x 213.1965pt>
+File: fv3_out_dyn_CONUS_C96_ustm_f001.png Graphic file (type png)
+<use fv3_out_dyn_CONUS_C96_ustm_f001.png>
+Package pdftex.def Info: fv3_out_dyn_CONUS_C96_ustm_f001.png  used on input lin
+e 10960.
+(pdftex.def)             Requested size: 344.005pt x 179.41238pt.
+ [243]
+[244 <./fv3_out_dyn_CONUS_C96_ustm_f001.png>]
+<fv3_out_phy_CONUS_C96_u10max_f001.png, id=4493, 408.8073pt x 213.1965pt>
+File: fv3_out_phy_CONUS_C96_u10max_f001.png Graphic file (type png)
+<use fv3_out_phy_CONUS_C96_u10max_f001.png>
+Package pdftex.def Info: fv3_out_phy_CONUS_C96_u10max_f001.png  used on input l
+ine 11017.
+(pdftex.def)             Requested size: 344.005pt x 179.41238pt.
+ [245 <./fv3_out_phy_CONUS_C96_u10max_f001.png>]
+<fv3_out_lev_CONUS_C96_t_hybrid_L001.png, id=4510, 407.121pt x 229.0959pt>
+File: fv3_out_lev_CONUS_C96_t_hybrid_L001.png Graphic file (type png)
+<use fv3_out_lev_CONUS_C96_t_hybrid_L001.png>
+Package pdftex.def Info: fv3_out_lev_CONUS_C96_t_hybrid_L001.png  used on input
+ line 11078.
+(pdftex.def)             Requested size: 344.005pt x 193.58932pt.
+ [246 <./fv3_out_lev_CONUS_C96_t_hybrid_L001.png>]
+<fv3_out_prs_CONUS_C96_tp_surface_L001.png, id=4521, 409.7709pt x 233.9139pt>
+File: fv3_out_prs_CONUS_C96_tp_surface_L001.png Graphic file (type png)
+<use fv3_out_prs_CONUS_C96_tp_surface_L001.png>
+Package pdftex.def Info: fv3_out_prs_CONUS_C96_tp_surface_L001.png  used on inp
+ut line 11139.
+(pdftex.def)             Requested size: 344.005pt x 196.37924pt.
+ [247] [248 <./fv3_out_prs_CONUS_C96_tp_surface_L001.png>]
+<fv3_out_comp_CONUS_C96_10u.png, id=4551, 403.5075pt x 229.0959pt>
+File: fv3_out_comp_CONUS_C96_10u.png Graphic file (type png)
+<use fv3_out_comp_CONUS_C96_10u.png>
+Package pdftex.def Info: fv3_out_comp_CONUS_C96_10u.png  used on input line 112
+05.
+(pdftex.def)             Requested size: 344.005pt x 195.31271pt.
+ [249 <./fv3_out_comp_CONUS_C96_10u.png>] [250]
+<fv3_mrms_comRefl_HRRR_20200618_0600.png, id=4572, 419.6478pt x 176.5797pt>
+File: fv3_mrms_comRefl_HRRR_20200618_0600.png Graphic file (type png)
+<use fv3_mrms_comRefl_HRRR_20200618_0600.png>
+Package pdftex.def Info: fv3_mrms_comRefl_HRRR_20200618_0600.png  used on input
+ line 11285.
+(pdftex.def)             Requested size: 430.00462pt x 180.94682pt.
+ [251 <./fv3_mrms_comRefl_HRRR_20200618_0600.png>]
+<fv3_mrms_xzRefl_HRRR_20200618_0600.png, id=4580, 459.8781pt x 700.7781pt>
+File: fv3_mrms_xzRefl_HRRR_20200618_0600.png Graphic file (type png)
+<use fv3_mrms_xzRefl_HRRR_20200618_0600.png>
+Package pdftex.def Info: fv3_mrms_xzRefl_HRRR_20200618_0600.png  used on input 
+line 11294.
+(pdftex.def)             Requested size: 344.005pt x 524.2029pt.
+<fv3_mrms_3dRefl_HRRR_20200618_0600.png, id=4581, 476.982pt x 361.35pt>
+File: fv3_mrms_3dRefl_HRRR_20200618_0600.png Graphic file (type png)
+<use fv3_mrms_3dRefl_HRRR_20200618_0600.png>
+Package pdftex.def Info: fv3_mrms_3dRefl_HRRR_20200618_0600.png  used on input 
+line 11301.
+(pdftex.def)             Requested size: 430.00462pt x 325.76889pt.
+ [252
+
+ <./fv3_mrms_xzRefl_HRRR_20200618_0600.png>] [253 <./fv3_mrms_3dRefl_HRRR_20200
+618_0600.png>]
+<fv3_out_ani_refl_comp_HRRR-2.png, id=4597, 744.7825pt x 662.475pt>
+File: fv3_out_ani_refl_comp_HRRR-2.png Graphic file (type png)
+<use fv3_out_ani_refl_comp_HRRR-2.png>
+Package pdftex.def Info: fv3_out_ani_refl_comp_HRRR-2.png  used on input line 1
+1373.
+(pdftex.def)             Requested size: 344.005pt x 305.99565pt.
+ [254] [255 <./fv3_out_ani_refl_comp_HRRR-2.png>]
+<fv3lam_out_grb2his_hera.png, id=4619, 426.393pt x 222.5916pt>
+File: fv3lam_out_grb2his_hera.png Graphic file (type png)
+<use fv3lam_out_grb2his_hera.png>
+Package pdftex.def Info: fv3lam_out_grb2his_hera.png  used on input line 11434.
+
+(pdftex.def)             Requested size: 387.00153pt x 202.0356pt.
+ [256 <./fv3lam_out_grb2his_hera.png>]
+Appendix A.
+[257
+
+] [258] [259] [260] [261] [262] [263] [264] [265] [266] [267]
+Appendix B.
+[268
+
+]
+Overfull \hbox (32.42467pt too wide) in paragraph at lines 12009--12009
+[]|\T1/txtt/m/n/10.95 MRMS_MergedReflectivityQCComposite_00.50_[*].grib2| 
+ []
+
+[269]
+Overfull \hbox (2.784pt too wide) in paragraph at lines 12015--12016
+[]\T1/txr/m/n/10.95 (-20) Data for-mat: `MRMS_MergedReflectivityQC_{AA.BB}_{YYY
+YMMDD}-{HHmmSS}
+ []
+
+[270] [271] [272] [273] [274] [275]
+Appendix C.
+[276
+
+] [277] [278]
+Appendix D.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12466--12467
+[]|[][]$\T1/txtt/m/n/9 http : / / www . earthsystemmodeling . org / esmf _ rele
+ases / public / ESMF _ 8 _ 0 _ 1 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12467--12468
+[]|[][]$\T1/txtt/m/n/9 http : / / www . earthsystemmodeling . org / esmf _ rele
+ases / public / ESMF _ 8 _ 0 _ 1 /
+ []
+
+
+Overfull \hbox (2.89844pt too wide) in alignment at lines 12448--12471
+ [] [] 
+ []
+
+
+Overfull \hbox (2.89844pt too wide) has occurred while \output is active
+ [] [] 
+ []
+
+No file Guide_FV3LAM_Jeon.bbl.
+
+AED: lastpage setting LastPage
+[279
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 12487.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 12487.
+ (./Guide_FV3LAM_Jeon.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 12487.
+
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 12487
+.
+Package rerunfilecheck Info: File `Guide_FV3LAM_Jeon.out' has not changed.
+(rerunfilecheck)             Checksum: 6FBA5D86119D3E4CD30D25C2E4B30171;16049.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 12487.
+ ) 
+Here is how much of TeX's memory you used:
+ 30514 strings out of 492649
+ 515952 string characters out of 6129622
+ 1656465 words of memory out of 5000000
+ 30290 multiletter control sequences out of 15000+600000
+ 152639 words of font info for 577 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,12n,54p,1504b,2182s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{table.8.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.8.2} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.3.6} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.6.9} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.12.4} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.11.1} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.10.6} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.10.1} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.7.3} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.7.5} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.5.9} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.5.7} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.5.5} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.5.4} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.5.3} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.4.2} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.4.1} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.3.2} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.44} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.5.1} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.75} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.7} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.6} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.73} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.58} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.56} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.50} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.55} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.52} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.49} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.48} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.7.1} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.7.2} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.45} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.9} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.26} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.25} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.24} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.8} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.4} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.3} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.2} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.1.1} has been referenced but does not exist, 
+replaced by a fixed one
+
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/local/texlive/2
+018/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2018/tex
+mf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/2018/texmf-dist
+/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2018/texmf-dist/fonts
+/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
+public/txfonts/t1xbtt.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
+c/txfonts/t1xtt.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfo
+nts/t1xtt.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/tx
+ex.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsy.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/loca
+l/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/
+2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Guide_FV3LAM_Jeon.pdf (280 pages, 16946181 bytes).
+PDF statistics:
+ 5741 PDF objects out of 6186 (max. 8388607)
+ 5263 compressed objects within 53 object streams
+ 2985 named destinations out of 3580 (max. 500000)
+ 88970 words of extra memory for PDF output out of 89155 (max. 10000000)
+

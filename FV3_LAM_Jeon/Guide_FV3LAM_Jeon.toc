@@ -1,0 +1,205 @@
+\babel@toc {english}{}
+\contentsline {chapter}{Contents}{1}{chapter*.1}
+\contentsline {chapter}{\numberline {1}Quick Start Guide of SRW App}{8}{chapter.1}
+\contentsline {section}{\numberline {1.1}Stable Tag of Regional Workflow for EMC}{8}{section.1.1}
+\contentsline {section}{\numberline {1.2}Release Branch: release/public-v1}{12}{section.1.2}
+\contentsline {chapter}{\numberline {2}Pre-workflow with UFS Short Range Weather Application}{14}{chapter.2}
+\contentsline {section}{\numberline {2.1}Overall Procedure of SRW App}{14}{section.2.1}
+\contentsline {section}{\numberline {2.2}Download from GitHub}{16}{section.2.2}
+\contentsline {section}{\numberline {2.3}External Components}{17}{section.2.3}
+\contentsline {subsubsection}{Workflow with Another Hash or HEAD}{18}{section*.4}
+\contentsline {section}{\numberline {2.4}Building the Executables for Workflow}{20}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Environment Set-up}{20}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Building the Executables}{21}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Adding a New CCPP Suite to SRW App}{22}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Generating a Regional Workflow Experiment}{24}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Steps to Generate a New Regional Workflow Experiment}{24}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Pre-defined Grid Parameters: `set\_predef\_grid\_params.sh'}{28}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Valid Values for Configuration Parameters: `valid\_param\_vals.sh'}{30}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.4}CCPP Suites Supported in FV3-LAM}{31}{subsection.2.5.4}
+\contentsline {subsection}{\numberline {2.5.5}Default Configuration: `config\_default.sh'}{32}{subsection.2.5.5}
+\contentsline {subsection}{\numberline {2.5.6}User-specific Configuration: `config.sh'}{46}{subsection.2.5.6}
+\contentsline {subsubsection}{Machine-specific parameters}{48}{section*.6}
+\contentsline {subsection}{\numberline {2.5.7}Sample Configuration Scripts}{48}{subsection.2.5.7}
+\contentsline {subsection}{\numberline {2.5.8}Static (FIX) Files for the `nco' Mode}{49}{subsection.2.5.8}
+\contentsline {section}{\numberline {2.6}Templates of Input Files}{50}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}List of Template Files}{50}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Migratory Route of Input Files in Workflow}{52}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}data\_table}{52}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2.6.4}diag\_table.[CCPP]}{52}{subsection.2.6.4}
+\contentsline {subsubsection}{Field lists of the modules in the above table}{55}{section*.8}
+\contentsline {subsection}{\numberline {2.6.5}field\_table.[CCPP]}{67}{subsection.2.6.5}
+\contentsline {subsection}{\numberline {2.6.6}FV3.input.yml}{68}{subsection.2.6.6}
+\contentsline {subsection}{\numberline {2.6.7}FV3LAM\_wflow.xml}{69}{subsection.2.6.7}
+\contentsline {subsection}{\numberline {2.6.8}input.nml.FV3}{69}{subsection.2.6.8}
+\contentsline {subsection}{\numberline {2.6.9}model\_configure}{81}{subsection.2.6.9}
+\contentsline {subsubsection}{Write-components:}{82}{section*.9}
+\contentsline {subsubsection}{Sub-hourly output frequency:}{83}{section*.10}
+\contentsline {subsection}{\numberline {2.6.10}nems.configure}{83}{subsection.2.6.10}
+\contentsline {subsection}{\numberline {2.6.11}regional\_grid.nml}{83}{subsection.2.6.11}
+\contentsline {section}{\numberline {2.7}HPC Environment Configuration}{84}{section.2.7}
+\contentsline {chapter}{\numberline {3}Workflow: Forecast}{85}{chapter.3}
+\contentsline {section}{\numberline {3.1}Structure of Regional Workflow}{85}{section.3.1}
+\contentsline {section}{\numberline {3.2}Optional Workflow Tasks}{88}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Grid, Orography, and Surface Climatology}{88}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Observation Data}{90}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}METplus}{91}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Modules for Workflow Tasks}{91}{section.3.3}
+\contentsline {section}{\numberline {3.4}Launch of Workflow: `community' Mode}{92}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Launch with the `launch\_FV3LAM\_wflow.sh' Script}{92}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Launch Manually by Calling the {\it rocotorun} Command}{96}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}How to Restart a `DEAD' Task}{97}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}How to Re-run Forecast and Post Tasks Only }{98}{subsection.3.4.4}
+\contentsline {section}{\numberline {3.5}Launch of Workflow: `nco' Mode}{100}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Mosaic Halo Files}{100}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Launch with the `launch\_FV3LAM\_wflow.sh' Script}{102}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}Automatic Resubmission with Cron}{103}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Syntax of Crontab}{103}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Setting up Command Line on Hera / WCOSS Cray}{104}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Setting up Command Line on WCOSS Dell}{105}{subsection.3.6.3}
+\contentsline {subsection}{\numberline {3.6.4}Sample Command for Launch Script}{105}{subsection.3.6.4}
+\contentsline {section}{\numberline {3.7}Output}{106}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Type of Output Files}{106}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Output Files: `community' Mode}{107}{subsection.3.7.2}
+\contentsline {subsection}{\numberline {3.7.3}Output Files: `nco' Mode}{109}{subsection.3.7.3}
+\contentsline {chapter}{\numberline {4}Workflow End-to-End (WE2E) Tests}{110}{chapter.4}
+\contentsline {section}{\numberline {4.1}Components of WE2E Tests}{110}{section.4.1}
+\contentsline {section}{\numberline {4.2}Tests Available on Specific Machines}{110}{section.4.2}
+\contentsline {section}{\numberline {4.3}Data for WE2E Tests}{111}{section.4.3}
+\contentsline {section}{\numberline {4.4}Running WE2E Tests}{112}{section.4.4}
+\contentsline {chapter}{\numberline {5}UFS\_UTILS: Grid and Static Fields with Workflow}{114}{chapter.5}
+\contentsline {section}{\numberline {5.1}ESG Grid and GFDL Grid Refinement}{114}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Adding a New Pre-defined Grid to Workflow}{114}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Flowchart of the Grid-generation Job in Workflow}{114}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Global Equivalent Resolution}{115}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Parameters for an ESG grid}{116}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Parameters for a GFDL grid}{118}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.6}Running a Workflow for a New Grid with an Example}{121}{subsection.5.1.6}
+\contentsline {section}{\numberline {5.2}Orography}{127}{section.5.2}
+\contentsline {section}{\numberline {5.3}Regional Static (Fix) Fields: Surface Climatology}{129}{section.5.3}
+\contentsline {section}{\numberline {5.4}Path to Machine-specific FIX Files}{130}{section.5.4}
+\contentsline {chapter}{\numberline {6}UFS\_UTILS: GFDL Grid and Static Fields without Workflow}{132}{chapter.6}
+\contentsline {section}{\numberline {6.1}Structure of Pre-processing}{132}{section.6.1}
+\contentsline {section}{\numberline {6.2}Grid Generation}{134}{section.6.2}
+\contentsline {section}{\numberline {6.3}Orography Generation}{136}{section.6.3}
+\contentsline {section}{\numberline {6.4}Filtering Topography}{138}{section.6.4}
+\contentsline {section}{\numberline {6.5}Halo Files for Boundary, {\it FV3}, and {\it chgres\_cube}}{139}{section.6.5}
+\contentsline {section}{\numberline {6.6}Regional Static (Fix) Fields: Surface Climatology}{140}{section.6.6}
+\contentsline {chapter}{\numberline {7}UFS\_UTILS: Initial and Lateral Boundary Fields}{143}{chapter.7}
+\contentsline {section}{\numberline {7.1}External Model Data for IC/LBC in Workflow}{143}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Machine-specific External Data}{143}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}User-staged External Data}{145}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Global Time-dependent Data}{145}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}GFS Data: GRIB2}{145}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}GFS Data: NetCDF}{146}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}{\it chgres\_cube}}{146}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Namelist of {\it chgres\_cube}}{147}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Output Attributes}{149}{subsection.7.3.2}
+\contentsline {section}{\numberline {7.4}Initial Conditions: Cold Start}{149}{section.7.4}
+\contentsline {section}{\numberline {7.5}Lateral Boundary Conditions}{152}{section.7.5}
+\contentsline {chapter}{\numberline {8}Unified Post Processor (UPP)}{155}{chapter.8}
+\contentsline {section}{\numberline {8.1}Converting into GRIB2}{155}{section.8.1}
+\contentsline {chapter}{\numberline {9}METplus}{162}{chapter.9}
+\contentsline {section}{\numberline {9.1}AWS METviewer}{162}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Scripts for AWS METviewer}{162}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Log-in}{164}{subsection.9.1.2}
+\contentsline {chapter}{\numberline {10}UFS Weather Model}{165}{chapter.10}
+\contentsline {section}{\numberline {10.1}Structure of the UFS Weather Model}{165}{section.10.1}
+\contentsline {section}{\numberline {10.2}Compiling the UFS Weather Model}{171}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}Building in the \{UFS\_HOME\} Directoy}{171}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.2}Building in the `\{UFS\_HOME\}/tests' Directory}{172}{subsection.10.2.2}
+\contentsline {subsection}{\numberline {10.2.3}Building the DEBUG mode}{173}{subsection.10.2.3}
+\contentsline {section}{\numberline {10.3}Regression Test}{173}{section.10.3}
+\contentsline {subsection}{\numberline {10.3.1}Running Regression Test}{173}{subsection.10.3.1}
+\contentsline {subsection}{\numberline {10.3.2}Building a Specific Test Case from Regression Test}{174}{subsection.10.3.2}
+\contentsline {section}{\numberline {10.4}Unit Test}{176}{section.10.4}
+\contentsline {subsection}{\numberline {10.4.1}Components of the Unit Test}{176}{subsection.10.4.1}
+\contentsline {subsection}{\numberline {10.4.2}Running Unit Test}{177}{subsection.10.4.2}
+\contentsline {subsection}{\numberline {10.4.3}Input and Output}{178}{subsection.10.4.3}
+\contentsline {section}{\numberline {10.5}Initial and Lateral Boundary Fields}{179}{section.10.5}
+\contentsline {subsection}{\numberline {10.5.1}Source Codes}{179}{subsection.10.5.1}
+\contentsline {subsection}{\numberline {10.5.2}Regional Boundary Update}{179}{subsection.10.5.2}
+\contentsline {section}{\numberline {10.6}Restart Option: Warm Start}{180}{section.10.6}
+\contentsline {subsection}{\numberline {10.6.1}Regression Test for a Regional Restart}{180}{subsection.10.6.1}
+\contentsline {subsection}{\numberline {10.6.2}Checklist for a Restart Run}{181}{subsection.10.6.2}
+\contentsline {section}{\numberline {10.7}Near-boundary Blending}{183}{section.10.7}
+\contentsline {subsection}{\numberline {10.7.1}Blending in a Forecast Run}{183}{subsection.10.7.1}
+\contentsline {subsection}{\numberline {10.7.2}Blending in a DA Run}{183}{subsection.10.7.2}
+\contentsline {subsection}{\numberline {10.7.3}Modification of the source code}{186}{subsection.10.7.3}
+\contentsline {chapter}{\numberline {11}Code Management on GitHub}{188}{chapter.11}
+\contentsline {section}{\numberline {11.1}Modification of the UFS Weather Model on GitHub}{188}{section.11.1}
+\contentsline {subsection}{\numberline {11.1.1}Overall Steps of Modification and Pull Request}{188}{subsection.11.1.1}
+\contentsline {subsection}{\numberline {11.1.2}Structure of the UFS Weather Model and Its Sub-components}{189}{subsection.11.1.2}
+\contentsline {subsection}{\numberline {11.1.3}Forking the UFS Weather Model and Sub-components}{190}{subsection.11.1.3}
+\contentsline {subsection}{\numberline {11.1.4}Cloning the UFS Weather Model}{191}{subsection.11.1.4}
+\contentsline {subsection}{\numberline {11.1.5}Configuring Git Remotes for the Cloned Sub-component}{191}{subsection.11.1.5}
+\contentsline {subsection}{\numberline {11.1.6}Updating the Branch in the Cloned Sub-component}{192}{subsection.11.1.6}
+\contentsline {subsection}{\numberline {11.1.7}Creating a New Feature Branch of the Sub-component}{193}{subsection.11.1.7}
+\contentsline {subsection}{\numberline {11.1.8}Making Changes to the Feature Branch of the Sub-component}{194}{subsection.11.1.8}
+\contentsline {subsection}{\numberline {11.1.9}Committing and Pushing Your Changes}{195}{subsection.11.1.9}
+\contentsline {subsection}{\numberline {11.1.10}Configuring the UFS Weather Model (Parent Repo.)}{195}{subsection.11.1.10}
+\contentsline {subsection}{\numberline {11.1.11}Updating the Branch of the UFS Weather Model}{196}{subsection.11.1.11}
+\contentsline {subsection}{\numberline {11.1.12}Updating the `.gitmodules' File}{197}{subsection.11.1.12}
+\contentsline {subsection}{\numberline {11.1.13}Create a New Feature Branch of the UFS Weather Model}{197}{subsection.11.1.13}
+\contentsline {subsection}{\numberline {11.1.14}Committing the `.gitmodules' File and Submodules}{198}{subsection.11.1.14}
+\contentsline {subsection}{\numberline {11.1.15}Creating Pull Requests (PR)}{198}{subsection.11.1.15}
+\contentsline {subsection}{\numberline {11.1.16}Modifying the Feature Branch}{199}{subsection.11.1.16}
+\contentsline {subsection}{\numberline {11.1.17}Pointing Submodule to the Develop Branch}{201}{subsection.11.1.17}
+\contentsline {subsection}{\numberline {11.1.18}Deleting the Feature Branch}{202}{subsection.11.1.18}
+\contentsline {subsection}{\numberline {11.1.19}Deleting the Forked Repository}{203}{subsection.11.1.19}
+\contentsline {section}{\numberline {11.2}Modification of Regional Workflow in SRW App on GitHub}{203}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}Modification of UFS SRW App}{203}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}Modification of Regional Workflow}{206}{subsection.11.2.2}
+\contentsline {subsection}{\numberline {11.2.3}Cloning Your Fork's Branches to Other Machines}{208}{subsection.11.2.3}
+\contentsline {subsection}{\numberline {11.2.4}Updating Cloned SRW and Workflow with the Latest Versions}{210}{subsection.11.2.4}
+\contentsline {subsection}{\numberline {11.2.5}Cloning Another Remote Branch to the Local Repository}{212}{subsection.11.2.5}
+\contentsline {chapter}{\numberline {12}Supporting Tools}{213}{chapter.12}
+\contentsline {section}{\numberline {12.1}Grid Coordinates: {\it fv3grid}}{213}{section.12.1}
+\contentsline {subsection}{\numberline {12.1.1}Regional Domain}{213}{subsection.12.1.1}
+\contentsline {subsection}{\numberline {12.1.2}Rotated Domain for `output\_grid'}{215}{subsection.12.1.2}
+\contentsline {subsection}{\numberline {12.1.3}A--Kappa ($\alpha $--$\kappa $) Domain for an ESG (JP) Grid}{216}{subsection.12.1.3}
+\contentsline {section}{\numberline {12.2}Plotting with {\it Python}}{218}{section.12.2}
+\contentsline {subsection}{\numberline {12.2.1}`Natural Earth' Data for Background}{218}{subsection.12.2.1}
+\contentsline {subsection}{\numberline {12.2.2}Cartopy Background Image}{220}{subsection.12.2.2}
+\contentsline {subsection}{\numberline {12.2.3}Modules}{221}{subsection.12.2.3}
+\contentsline {subsection}{\numberline {12.2.4}Installation of Miniconda (Anaconda)}{221}{subsection.12.2.4}
+\contentsline {subsection}{\numberline {12.2.5}Python Scripts on GitHub}{223}{subsection.12.2.5}
+\contentsline {subsection}{\numberline {12.2.6}Grid and Orography}{224}{subsection.12.2.6}
+\contentsline {subsection}{\numberline {12.2.7}Static Fields: Regional (`fix\_lam')}{227}{subsection.12.2.7}
+\contentsline {subsection}{\numberline {12.2.8}Static Fields: Global (`fix\_am')}{230}{subsection.12.2.8}
+\contentsline {subsection}{\numberline {12.2.9}Time-dependent IC/LBC Fields}{232}{subsection.12.2.9}
+\contentsline {subsection}{\numberline {12.2.10}Initial Surface Climatology Fields}{235}{subsection.12.2.10}
+\contentsline {subsection}{\numberline {12.2.11}Historical CO$_2$ Data}{236}{subsection.12.2.11}
+\contentsline {subsection}{\numberline {12.2.12}Output: `grid\_spec'}{237}{subsection.12.2.12}
+\contentsline {subsection}{\numberline {12.2.13}Output: `atmos\_static'}{239}{subsection.12.2.13}
+\contentsline {subsection}{\numberline {12.2.14}Output: `fv3\_history2d' - Boundary}{241}{subsection.12.2.14}
+\contentsline {subsection}{\numberline {12.2.15}Output: `dynf'}{243}{subsection.12.2.15}
+\contentsline {subsection}{\numberline {12.2.16}Output: `phyf'}{244}{subsection.12.2.16}
+\contentsline {subsection}{\numberline {12.2.17}Output: `BGRD3D (natlev.grib2)'}{245}{subsection.12.2.17}
+\contentsline {subsection}{\numberline {12.2.18}Output: `BGDAWP (natprs.grib2)'}{247}{subsection.12.2.18}
+\contentsline {subsection}{\numberline {12.2.19}Output: Comparison of Two NetCDF (GRIB2) Files}{248}{subsection.12.2.19}
+\contentsline {subsection}{\numberline {12.2.20}MRMS: Composite Reflectivity Radar Data}{250}{subsection.12.2.20}
+\contentsline {subsection}{\numberline {12.2.21}Animation: Hourly Comparison of Composite Reflectivity}{253}{subsection.12.2.21}
+\contentsline {subsection}{\numberline {12.2.22}Time-history of Maximum Temperature}{255}{subsection.12.2.22}
+\contentsline {chapter}{\numberline {A}Workflow Manager: {\it Rocoto}}{257}{appendix.A}
+\contentsline {section}{\numberline {A.1}How the {\it Rocoto} Engine Works}{257}{section.A.1}
+\contentsline {section}{\numberline {A.2}{\it Rocoto} XML Language}{259}{section.A.2}
+\contentsline {chapter}{\numberline {B}Data Transfer from/to/between NOAA HPCs}{268}{appendix.B}
+\contentsline {section}{\numberline {B.1}Trusted Data Transfer Node: Between NOAA HPCs}{268}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}On Hera}{268}{subsection.B.1.1}
+\contentsline {subsection}{\numberline {B.1.2}On WCOSS}{269}{subsection.B.1.2}
+\contentsline {subsection}{\numberline {B.1.3}On Orion}{269}{subsection.B.1.3}
+\contentsline {section}{\numberline {B.2}Data Transfer from HPSS}{269}{section.B.2}
+\contentsline {subsection}{\numberline {B.2.1}On Hera}{270}{subsection.B.2.1}
+\contentsline {section}{\numberline {B.3}External Data Transfer from Hera to Local Desktop}{274}{section.B.3}
+\contentsline {section}{\numberline {B.4}SSH Port Tunnel from Linux-like Systems: Between Desktop and HPC}{274}{section.B.4}
+\contentsline {chapter}{\numberline {C}HPC Job Commands}{276}{appendix.C}
+\contentsline {section}{\numberline {C.1}Hera}{276}{section.C.1}
+\contentsline {subsection}{\numberline {C.1.1}Slurm}{276}{subsection.C.1.1}
+\contentsline {subsection}{\numberline {C.1.2}Other Useful Commands}{276}{subsection.C.1.2}
+\contentsline {section}{\numberline {C.2}WCOSS}{277}{section.C.2}
+\contentsline {subsection}{\numberline {C.2.1}LSF}{277}{subsection.C.2.1}
+\contentsline {section}{\numberline {C.3}Orion}{277}{section.C.3}
+\contentsline {subsection}{\numberline {C.3.1}Slurm}{277}{subsection.C.3.1}
+\contentsline {subsection}{\numberline {C.3.2}Other Useful Commands}{278}{subsection.C.3.2}
+\contentsline {chapter}{\numberline {D}Reference Documentations}{279}{appendix.D}
